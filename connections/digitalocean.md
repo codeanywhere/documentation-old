@@ -1,7 +1,10 @@
 # DigitalOcean
 
+With Codeanywhere, you can work directly with your DigitalOcean Droplets!
 
-With Codeanywhere, you can work directly with your Digital Ocean Droplets. In order to create a new Droplet using Codeanywhere, simply go to File  -> New Connection -> Digital Ocean. 
+### Adding a New Connection to DigitalOcean
+
+In order to create a new Droplet using Codeanywhere, simply go to File  -> New Connection -> DigitalOcean. 
 
 ![digitalocean-open](images/digitalocean-open.png "digitalocean-open")
 
@@ -17,6 +20,8 @@ Enter your Digital Ocean account details to log in and connect to your Digital O
 
 Now, in your Editor, you’ll be able to create a new Droplet which will be added to your Digital Ocean account.
 
+### Creating a new Droplet
+
 First of all, you can select your new Droplet image from 4 categories: Distributions, One-click Apps, Snapshots and Backups. Also, here, you can select Droplet’s Size, as well as Region of your Droplet - the same way you do that with Digital Ocean! 
 
 ![do-droplet-create1](images/do-droplet-create1.png "do-droplet-create1")
@@ -29,19 +34,21 @@ After selecting Next, you can enter Host name of your Droplet which will also be
 
 Click Create and your Droplet will be added into your Codeanywhere account and to your Digital Ocean account!
 
+### Managing a Droplet
+
 ![do-droplet-manage](images/do-droplet-manage.png "do-droplet-manage")
 
-With Codeanywhere, you get SSH access to your Droplet and you can use all the necessary actions: 
-Turn Off / Start - power off your Droplet at any time and turn it on again, 
-Restart - reboot your Droplet, 
-Settings - change settings of your Droplet, 
-Rename - change Host name, 
-Refresh - refresh Droplet, 
-Create File - create file directly in a Droplet, just enter name and extension of your file, 
-Create Folder - create folder directly in a Droplet, 
-Upload - simply upload from your local machine into your Droplet, 
-Share - share your Droplet with other users for collaboration, or if you just want them to view your Droplet
-Remove - remove your Droplet from Codeanyhwere. It will still remain active in your Digital Ocean account.
+With Codeanywhere, you get SSH access to your Droplet and you can use all the necessary actions! Also, you can use other actions: 
+  - Turn Off / Start - power off your Droplet at any time and turn it on again, 
+  - Restart - reboot your Droplet, 
+  - Settings - change settings of your Droplet, 
+  - Rename - change Host name, 
+  - Refresh - refresh Droplet, 
+  - Create File - create file directly in a Droplet, just enter name and extension of your file, 
+  - Create Folder - create folder directly in a Droplet, 
+  - Upload - simply upload from your local machine into your Droplet, 
+  - Share - share your Droplet with other users for collaboration, or if you just want them to view your Droplet
+  - Remove - remove your Droplet from Codeanyhwere. It will still remain active in your Digital Ocean account.
 
 
 You can check these options by right clicking on your new Droplet in Codeanywhere.

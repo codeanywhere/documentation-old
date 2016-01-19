@@ -4,6 +4,7 @@ Containers are in essence your own Virtual Private Servers run invisibly in the 
 
 - Blank – Blank Development Box
 - PHP – PHP Development Box with Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
+- PHP7 - PHP Development Stack with Apache, PHP7, MySQL and phpMyAdmin preinstalled (only CentOS).
 - NodeJS – NodeJS Development Box with NodeJS, MySQL, NPM, bower and grunt preinstalled
 - Ruby – Ruby Development Box with RVM and Ruby on Rails preinstalled
 - Python – Python Development Box with pip and virtualenv preinstalled
@@ -39,14 +40,27 @@ Choose your environment, name it and click Create!
 
 ![container-php](images/container-php.png "container-php")
 
-With containers, you can view your code with your preview link. You can check your preview link inside Info with a right click on your Container:
- 
-![phpinfo](images/phpinfo.png "phpinfo")
+### Manage Container
+
+<img src="images/container-manage.png" width="200" height="auto">
 
 
-When your info tab is opened, use the link at the bottom of your page to access applications running on your Container (see the example below). Be sure to replace the XX with the port you have specified in your app.
+With Container get SSH access to your Container and you can use all the necessary actions such as git commands, installation of new depencencies ect! You can Turn Off or Turn On your Box, restart it or set it to be Always On so you can access your Box at anytime, without the need of logging into your account and starting it.
+With containers, you can view your code with your preview link. You can check your preview link inside Info.
  
- ### PHPMyAdmin
+![phpinfo](images/container-info.png "container-info")
+
+Be sure to replace the XX with the port you have specified in your app.
+
+In Config, you can set up commands necessary for your Stack to Run. Custom Stack can be created out of any Container! If you installed anything using your terminal, just save it as a Custom Stack and use it again and again. This way, you don't have to lose anytime for creating your development environment all over again!
+
+By selecting Run, your preview link will be opened and any command neccessary to run your app, opened in SSH terminal.
+
+Create any file, by entering filename.extension, or folder inside your container, Upload files directly from your local storage or Share your entire Container!
+ 
+In case you want to delete your entire Container, just click Destroy. However, keep in mind that your work will be removed and you wont be able to retrieve it afterwards!
+
+### PHPMyAdmin
 
 PhpMyAdmin comes preinstalled with our Containers (both CentOS and Ubuntu). To access it first open the info by right-clicking the Container in File Explorer:
 Copy the link (with the XX replaced with your port) into the new tab of your browser and add „/phpmyadmin“ at the end of the link to access phpMyAdmin – it will look something like: http://port-80.xxxxxx.box.codeanywhere.com/phpmyadmin. For login use the "root" as Username, and leave the Password field empty:
@@ -55,6 +69,19 @@ Copy the link (with the XX replaced with your port) into the new tab of your bro
 
 
 If you want to be able to access your Container at all times, you can activate our feature Always-on, which will keep your Container running even when you're not using Codeanywhere!
+
+### Creating a Custom Stack
+
+In order to create a Custom Stack of one of your Stacks, first, you'll have to right click on your Container and select Create Custom Stacks
+
+<img src="images/ccs1.png" width="200" height="auto">
+
+Enter your File name and Description so you could find it easier later on!
+
+![ccs2](images/ccs2.png "ccs2")
+
+You can access all your Custom Stacks in your [Dashboard](https://codeanywhere.com/dashboard#custom-stacks).
+
 
 ### Deploy to Heroku
 

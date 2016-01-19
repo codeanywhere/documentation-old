@@ -1,6 +1,9 @@
 # Amazon S3
 
 Amazon's S3 is integrated into Codeanywhere just as FTP, Dropbox, and Google Drive. 
+
+### Creating Amazon S3 connection
+
 Go to File -> New Connections -> Amazon S3.
 
 ![amazons3-open](images/amazons3-open.png "amazons3-open")

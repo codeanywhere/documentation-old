@@ -14,12 +14,11 @@ Codeanywhere can edit many types of files and has all the nice features you are 
   - Open and save files with more than 200.000 lines
 
 
-Codeanywhere has integrated clients for connecting to FTP, SFTP, FTPS, SSH, Dropbox, Amazon S3, Google Drive, and even GitHub and Bitbucket so you can code and deploy without opening up multiple programs!
+Codeanywhere has integrated clients for connecting to FTP, SFTP, FTPS, SSH, Dropbox, Amazon S3, Google Drive, GitHub, Bitbucket and even DigitalOcean, so you can code and deploy without opening up multiple programs!
 Also, you can create Containers which are your private virtual development environment that you can fully customize through SSH terminal. Each one comes with its own dedicated amount of memory and disk space. You can choose between a large number of predefined stacks (PHP, HTML, Laravel, Wordpress, ect.) or you can create new ones! You can preview your application instantly inside Codeanywhere IDE. 
 Our large file support enables you to open and save files with over 200.000 lines!
 You can even drag and drop files and folders from your Desktop!
-Codeanywhere has a sharing capability so you can get help from a colleague, open your code base to a group or simply to show your latest code to your friends!
-In short, Codeanywhere will solve all your coding needs on the go, anytime, anywhere and on any platform!
+Codeanywhere has a sharing capability so you can get help from a colleague, open your code base to a group or simply to show your latest code to your friends and Revisions so you don't have to worry about losing your code ever again!
 
-Codeanywhere has a sharing capability so you can get help from a colleague, open your code base to a group or simply to show your latest code to your friends!
+
 In short, Codeanywhere will solve all your coding needs on the go, anytime, anywhere and on any platform!

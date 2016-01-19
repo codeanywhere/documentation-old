@@ -25,7 +25,7 @@ Wait for a few seconds until your Container is deployed, and you can start codin
 
 ![container-created](images/container-created.png "container-created")
 
-With a right click on your Container, choose to Create a File, and name it “index.php”. 
+With a right click on your Container, choose to Create a File, and name it “index.php”.
 
 <img src="images/createfile.png" width="250" height="auto">
 
@@ -49,4 +49,4 @@ That’s about it!
 
 You can now share your code and work with your colleagues in the same way you’d do that with Google Docs!
 If they make some changes you’re not happy with, use our Revisions feature, and get your code back to where you’d like!
-Sounds interesting? Read our online documentation and learn about the rest of the cool features we have to offer! Happy coding :)
+Sounds interesting? Read our online documentation and learn more about the rest of the cool features we have to offer! :)

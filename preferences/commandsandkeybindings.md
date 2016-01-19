@@ -96,3 +96,20 @@ Below is a list of every command and key binding used by Codeanywhere, which you
 | Next Bookmark	| F2	| F2  |
 | Redo Selection	| Alt + U |	Alt + U |
 | Previous Bookmark	| Shift + F2  |	Shift + F2  |
+
+
+
+For example, in Preferences -> Default -> Key Bindings, you'll see it is set to: 
+```
+"auto_indent": {
+    "keys": ["Alt-Shift-Tab"]
+}
+```
+And now you can change it inside Preferences -> User/Project -> Key Bindings, by adding code:
+```
+"auto_indent": {
+    "keys": ["Alt-Shift-Tab-A"]
+}
+```
+And by doing this, you'll override settings from Default. 
+

@@ -2,6 +2,9 @@
 
 
 With Codeanywhere, you’ll be able to work directly with your GitHub repositories. 
+
+### Creating an GitHub Container
+
 Go to File -> New Connection -> GitHub. 
 
 ![github-open](images/github-open.png "github-open")
@@ -23,7 +26,11 @@ Just select repository you want to access, setup your development environment, o
 
 ![github-repo2](images/github-repo2.png "github-repo2")
 
-Now you’ve created a new Container with your repository!
+Now you’ve created a new [Container](http://docs.codeanywhere.com/connections/container.html) with your repository!
+
+Once you have got the repo in Codeanywhere, you can work on it from anywhere. You'll be able to edit your files, or run projects within Codeanywhere!
+
+### Accessing GitHub Organizations
 
 You have to explicitly allow Codeanywhere to access your organizations. You can do it in two ways:
 
@@ -39,5 +46,4 @@ Click Grant / Request Access on organization which repositories you want to acce
 
 After allowing organization access, you can list your repositories through Codeanywhere.
 
-Once you have got the repo in Codeanywhere, you can work on it from anywhere. You'll be able to edit your files, or run projects within Codeanywhere!
 

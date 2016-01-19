@@ -149,7 +149,34 @@ We support highlighting for the following languages and extensions by default:
 We are always adding new themes and new languages to support, so check the menu often! Since we use [CodeMirror](https://codemirror.net/) to provide syntax highlighting, feel free to log an issue there for new requests.
 If you want to add new extensions, simply go to Preferences -> Project/User -> File Types and add a new extension to override the one from General Preferences. All the files with this extension will automatically be recognized and opened with the selected mode.
 
+For example, in Preferences -> Default -> File Types, you'll see it is set to: 
+```
+"HTML": { 
+  "extension": ["html", "htm"]
+}
+```
+And now you can add CTP extension inside Preferences -> User/Project -> File Types, by adding code:
+```
+"HTML": { 
+  "extension": ["html", "htm", "CTP"]
+}
+```
+And by doing this, you'll override settings from Default.
 
 ## Themes
 
 Themes can be changed in Project or User General Preferences. Currently there are several themes available: "monokai", "white", "dark". It is also possible to change color schemes of your browser into "monokai", "white", "eclipse", "ambiance", "blackboard", "pastel-on-dark", "seti".
+
+For example, in Preferences -> Default -> General, you'll see it is set to: 
+```
+"workspace": { 
+	"theme": "monokai" 
+} 
+```
+And now you can change it inside Preferences -> User/Project -> General, by adding code:
+```
+"workspace": { 
+	"theme": "white" 
+}
+```
+And by doing this, you'll override settings from Default!

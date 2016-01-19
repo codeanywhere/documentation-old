@@ -1,5 +1,9 @@
 # Dropbox
 
+With Codeanywhere, you can connect your Dropbox account!
+
+### Adding a New Connection to Dropbox
+
 Go to File -> New Connections -> Dropbox.
 
 ![dropbox-open](images/dropbox-open.png "dropbox-open")
@@ -14,4 +18,4 @@ Enter your Dropbox account details to add that Dropbox account to your server li
 ![dropbox-authorize](images/dropbox-authorize.png "dropbox-authorize")
 
 
-If the Dropbox account is added successfully it will appear in your File Explorer with the Dropbox icon.
+If the Dropbox account is added successfully it will appear in your File Explorer with the Dropbox icon!

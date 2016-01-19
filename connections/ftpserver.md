@@ -1,5 +1,9 @@
 # FTP Server
 
+With Codeanywhere, you can connect your existing FTP/FTPs server!
+
+### Adding an existing FTP/FTPs
+
 Go to File -> New Connection -> FTP Server. 
 
 ![ftpserver-open](images/ftpserver-open.png "ftpserver-open")
@@ -20,25 +24,29 @@ After selecting it, Add FTP window appears where you enter server information an
 
 Your FTP/FTPs server will be automatically added to the File Explorer with an FTP icon.
 
+### Managing FTP/FTPs
 
-If you right-click on any FTP server listed, it will expand a menu offering more options: Rename, Permissions, Refresh, Create File, Create Folder, Upload, Share, Remove and Settings – where you can change your FTP credentials.
+If you right-click on any FTP server listed, it will expand a menu offering more options: Rename, Permissions, Refresh, Create File, Create Folder, Upload, Share, Remove and Settings – where you can change your FTP/FTPs credentials.
 
 <img src="images/ftpserver-manage.png" width="150" height="auto">
-
-
 
 
 To access SSH terminal, simply add an SSH connection instead and you'll have all the features of your FTP with SSH terminal! 
 Right-clicking folders and files gives you some additional options such as Copy and Cut, to simplify managing of files and folders – still you can simply Drag and Drop your files in order to move them between folders and even Connections!
 
 
+### Local FTP/FTPS
+
 Codeanywhere uses its file services in the cloud that are used for making connections.
 Behind the scenes it looks something like this: 
-  Codeanywhere Web or mobile app---->Codeanywhere API---->Codeanywhere File Service---->Your FTP Server
-If your FTP server is in your local network, the only way you could connect to your server from Codeanywhere is that you use port forwarding on your router to your local FTP server. The other problem that could come in your case is your router's public IP. If your internet provider does not provide you a static IP, then you would also need to use some of DDNS services.
 
+Codeanywhere Web or mobile app ----> Codeanywhere API ----> Codeanywhere File Service ----> Your FTP/FTPS Server
 
-While working with FileZilla you are directly connected from local computer to your server, on the other hand the Codeanywhere is acting as a "middle man" between user and ftp - any action done by user is firstly processed at our server and then sent to the ftp. Same thing works in opposite direction, ftp sends response to Codeanywhere and then Codeanywhere forwards the response back to user.
+If your FTP/FTPS server is in your local network, the only way you could connect to your server from Codeanywhere is that you use port forwarding on your router to your local FTP/FTPS server. The other problem that could come in your case is your router's public IP. If your internet provider does not provide you a static IP, then you would also need to use some of DDNS services.
+
+### Server response
+
+While working with FileZilla you are directly connected from local computer to your server, on the other hand the Codeanywhere is acting as a "middle man" between user and FTP/FTPS - any action done by user is firstly processed at our server and then sent to the FTP/FTPS. Same thing works in opposite direction, FTP/FTPS sends response to Codeanywhere and then Codeanywhere forwards the response back to user.
 Also, the speed of the server response is depending on the server location. If your server is located it America, the response will be faster, but if it's located in China it will be slower. 
 We do plan to expand our server coverage around the world for faster connections!
 
