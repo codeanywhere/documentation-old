@@ -13,14 +13,14 @@ There are several ways for you to contact us:
   
 By using any of these methods (unless we are online on chat or via social networks), you will create an ticket since we work with a Web based Support ticketing system! You can respond directly from your e-mail, or you can login to our ticketing system.
 
-#### Login to Zendesk
+#### Login to Support
 
 You can login to our ticketing system in order to check status of your request and our responses! 
 First of all, let's say, you createad an ticket from our Editor.
 
 <img src="images/support1.png" width="300" height="auto">
 
-You will receive an email stating that you oppened an ticket.
+You will receive an email stating that you opened an ticket.
 
 <img src="images/support2.png" width="500" height="auto">
 
@@ -28,15 +28,15 @@ Follow the link of your ticket (which looks like this: support.codeanywhere.com/
 
 <img src="images/support3.png" width="400" height="auto">
 
-It will take you to the login page. Click on Get a password in order to set your password in
+It will take you to the login page. Click on Get a password in order to set your password in.
 
 <img src="images/support4.png" width="300" height="auto">
 
-Enter your e-mail in the next step
+Enter your e-mail in the next step.
 
 <img src="images/support5.png" width="500" height="auto">
 
-You will receive an e-mail with your unique set-password link
+You will receive an e-mail with your unique set-password link.
 
 <img src="images/support6.png" width="300" height="auto">
 
