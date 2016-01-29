@@ -1,3 +1,7 @@
+---
+current_menu: fileexplorer
+---
+
 ## File Explorer
 
 The File Explorer is located on the left side of the Codeanywhere Editor.

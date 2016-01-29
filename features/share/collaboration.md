@@ -1,3 +1,7 @@
+---
+current_menu: collaboration
+---
+
 ## Pair-coding – Collaboration
 
 Simply right click on Project, Connection, Folder or File you'd like to share and select Share. You'll be prompted to enter e-mails of the users you'd like to collaborate with. 

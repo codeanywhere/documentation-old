@@ -1,3 +1,7 @@
+---
+current_menu: search
+---
+
 # Searching and Replacing in Files
 
 ## Quicksearch

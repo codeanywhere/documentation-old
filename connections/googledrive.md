@@ -1,3 +1,7 @@
+---
+current_menu: googledrive
+---
+
 # Google Drive
 
 With Codeanywhere, you can connect your Google Drive account!
@@ -23,4 +27,9 @@ Now you can easily edit files from your Google Drive account!
 
 ### Invalid Token issue
 
-If you receive an Invalid Token error, it means there is something wrong with your long-term access token, so please try removing and adding your Drive account. If that does not work please try revoking access to Codeanywhere from your Google security page located at: [https://www.google.com/settings/security](https://www.google.com/settings/security) and afterwards try to add it again.
+If you receive an Invalid Token error, it means there is something wrong with your long-term access token, so please try removing and adding your Drive account. If that does not work please try revoking access to Codeanywhere from your Google security page located at: [https://www.google.com/settings/security](https://www.google.com/settings/security) - under Connected apps and sites, Remove Codeanywhere, and afterwards add it again.
+
+
+<img src="images/google-invalidtoken.png" width="500" height="auto">
+
+

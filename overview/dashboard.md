@@ -1,3 +1,7 @@
+---
+current_menu: dashboard
+---
+
 # Dashboard
 
 You can access your Dashboard from inside your Editor – just go to top menu bar and in right corner select Profile Button 
@@ -8,10 +12,9 @@ You can access your Dashboard from inside your Editor – just go to top menu ba
 Or you can go directly to [https://codeanywhere.com/dashboard](https://codeanywhere.com/dashboard).
 
 
-
 Here, you can take care of all your Account details – manage your password, connect to various networks (GitHub, Bitbucket, Google or Facebook), and Delete your Account. 
  
- ![account](images/dashboard-account.png "account")
+![account](images/dashboard-account.png "account")
 
 
 Under Billing, you can manage your subscriptions and purchase add-ons, check out your invoices and billing info. Also, as a security measure, here you can activate 2FA (for Freelancer Plan and higher).

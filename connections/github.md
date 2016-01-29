@@ -1,3 +1,7 @@
+---
+current_menu: github
+---
+
 # GitHub
 
 
@@ -46,4 +50,12 @@ Click Grant / Request Access on organization which repositories you want to acce
 
 After allowing organization access, you can list your repositories through Codeanywhere.
 
+### Working with repositories
 
+You can push changes to Github using standard git commands inside your SSH terminal:
+
+git add -A // To track all files
+
+git commit -am "message" // To commit changes
+
+git push origin master // Push your local changes to github

@@ -1,3 +1,7 @@
+---
+current_menu: digitalocean
+---
+
 # DigitalOcean
 
 With Codeanywhere, you can work directly with your DigitalOcean Droplets!
@@ -54,7 +58,7 @@ With Codeanywhere, you get SSH access to your Droplet and you can use all the ne
 You can check these options by right clicking on your new Droplet in Codeanywhere.
 
 
-## What happens when you delete a Droplet outside of Codeanywhere’s UI?
+### What happens when you delete a Droplet outside of Codeanywhere’s UI?
 
 
 When you delete a Droplet outside of Codeanywhere’s UI, you’ll receive the following message next to your Droplet in your File Tree: “Error:Droplet Not Found”, and you won’t be able to access it anymore since it is destroyed. 
@@ -66,11 +70,16 @@ Keep in mind, that if you use Codeanywhere to Remove your Droplet, it will disap
 
 
 
-## Adding authorization to a different account
+### Adding authorization to a different account
 
 If you want to remove authorization for your Digital Ocean account, go to your Dashboard and under Account, select Disconnect from your current Digital Ocean account. 
 
 ![do-droplet-dashboard](images/do-droplet-dashboard.png "do-droplet-dashboard")
 
 Now, you can authorize different Digital Ocean account by simply Connecting to a different one - the same way as described before, or if you’re already logged in Digital Ocean account, directly from your Dashboard.
+
+
+### Adding existing Droplet
+
+While creating a Droplet via Codeanywhere, we have a full integration, and connection of an existing Droplet is possible by using SSH connection. While connecting via [SSH server](http://docs.codeanywhere.com/connections/sshserver.html), you have to take your [CA public key](https://codeanywhere.com/dashboard#ssh-keys) and implement it inside authenticated_keys.
 

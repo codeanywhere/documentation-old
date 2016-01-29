@@ -1,3 +1,7 @@
+---
+current_menu: dropbox
+---
+
 # Dropbox
 
 With Codeanywhere, you can connect your Dropbox account!

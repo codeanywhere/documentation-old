@@ -1,3 +1,7 @@
+---
+current_menu: otherq
+---
+
 # FAQ
 
 > Why is working with FTP slower on Codeanywhere then with the FileZilla?
@@ -11,7 +15,9 @@ We do however plan to expand our server coverage around the world for faster con
 
 Codeanywhere uses its file services in the cloud that are used for making connections.
 Behind the scenes it looks something like this: 
+
 Codeanywhere Web or mobile app---->Codeanywhere API---->Codeanywhere File Service---->Your FTP/SFTP Server
+
 Your FTP/SFTP server is in your local network and the only way you could connect to your server from Codeanywhere is that you use port forwarding on your router to your local FTP/SFTP server. The other problem that could come in your case is your router's public IP. If your internet provider does not provide you a static IP, then you would also need to use some of DDNS services.
 
 
@@ -88,6 +94,7 @@ Also, please download original plug-ins from Wordpress, so you don't receive thi
 
 There seems to be something wrong with your long-term access token, so please try removing and adding your Drive account. If that does not work please try revoking access to Codeanywhere from your Google security page located at: [https://www.google.com/settings/security](https://www.google.com/settings/security) and afterwards try to add it again.
 
+<img src="images/google-invalidtoken.png" width="500" height="auto">
 
 > How to connect container to Putty?
 
@@ -175,3 +182,25 @@ And now you can change it inside Preferences -> User/Project -> General, by addi
 }
 ```
 And by doing this, you'll override settings from Default. We'll keep updating this so stick around!
+
+> How can I connect to Bitbucket via authorized_keys
+
+The recommended method is adding Codeanywhere SSH key to your Bitbucket account. That way, you can push commits to your private repo without password prompt. To do so, copy your Codeanywhere public key (you can find it by clicking your email in editor, then click "get your public key") and paste it to your bitbucket account (Account -> manage account -> SSH keys -> add Key)
+
+Now your Codeanywhere account is authorized to make changes to your repo.
+
+If you already have repository in Bitbucket, just by cloning your repository, your git will be setup. If you have existing project with empty Bitbucket git repository, you can add your repo with "git remote add origin {GIT_SSH_URL}". You can find your {GIT_SSH_URL} by clicking clone in bitbucket repo, then copying url next to 'git clone', its format is git@bitbucket.org:/username/repository.git
+
+now you have successfully setup your git. 
+
+
+> How can I work with my repository with Codeanywhere
+
+Connect to your repository via [Github](http://docs.codeanywhere.com/connections/github.html) or [Bitbucket](http://docs.codeanywhere.com/connections/bitbucket.html) directly or with [Git From URL](http://docs.codeanywhere.com/connections/gitfromurl.html). You can push changes to your repository using standard git commands inside your SSH terminal:
+
+git add -A // To track all files
+
+git commit -am "message" // To commit changes
+
+git push origin master // Push your local changes to repository
+

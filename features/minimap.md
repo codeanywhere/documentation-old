@@ -1,3 +1,7 @@
+---
+current_menu: minimap
+---
+
 # MiniMap
 
 A MiniMap is like a wider scroll bar in which you see a mini version of the entire file you’re working on. It is a very user productive feature as it allows you to scroll through your file with speed and ease by using the compressed image of your text on the upper right hand corner. 

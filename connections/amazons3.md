@@ -1,3 +1,7 @@
+---
+current_menu: amazons3
+---
+
 # Amazon S3
 
 Amazon's S3 is integrated into Codeanywhere just as FTP, Dropbox, and Google Drive. 

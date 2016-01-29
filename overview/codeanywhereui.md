@@ -1,3 +1,7 @@
+---
+current_menu: codeanywhereui
+---
+
 # Codeanywhere UI
 
 Codeanywhere contains features you'd expect from traditional desktop editors. Among these include:
@@ -6,10 +10,12 @@ Codeanywhere contains features you'd expect from traditional desktop editors. Am
  - Undo and Redo support
  - Cut, Copy, Paste, and Replace functionality
  - Line manipulation, including:
+ 
   - Indenting and outdenting
   - Moving and copying lines up or down
   - Removing lines from any point
   - Splitting lines
+  
  - Highlighting and commenting blocks of code
  - Revisions
  - Code folding (including the entire file)

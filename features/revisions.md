@@ -1,3 +1,7 @@
+---
+current_menu: revisions
+---
+
 # Revisions
 
 Every time you save a file on Codeanywhere, a diff of any changes made to it is saved by the server. Over time, you can view these file revisions as content is added and removed from your files. You can also restore a file to any previously saved state; you'll never have to worry about losing your work ever again!

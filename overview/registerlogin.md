@@ -1,3 +1,7 @@
+---
+current_menu: registerlogin
+---
+
 # Register/Login
 
 To get started with Codeanywhere, just [Register](https://codeanywhere.com/signup) with an account or [Login](https://codeanywhere.com/login) if you are already registered and go to our [Editor](https://codeanywhere.com/editor)!

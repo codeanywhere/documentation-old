@@ -1,30 +1,35 @@
+---
+current_menu: container
+---
+
 # Container
 
 Containers are in essence your own Virtual Private Servers run invisibly in the background of Codeanywhere, each one with its own amount of RAM, Disk space and Processing power. Containers give you the ability to provision any Development Environment you like. You can even choose between one of the predefined stacks:
 
 - Blank – Blank Development Box
-- PHP – PHP Development Box with Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
-- PHP7 - PHP Development Stack with Apache, PHP7, MySQL and phpMyAdmin preinstalled (only CentOS).
-- NodeJS – NodeJS Development Box with NodeJS, MySQL, NPM, bower and grunt preinstalled
-- Ruby – Ruby Development Box with RVM and Ruby on Rails preinstalled
-- Python – Python Development Box with pip and virtualenv preinstalled
-- C/C++ – C/C++ Development Box with gcc and g++ compiler and gdb preinstalled
-- HTML – HTML5 Development Box with Apache, npm, yeoman, bower and  grunt preinstalled
-- Wordpress – PHP Development  Box with Wordpress 4.2.1, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
-- Laravel – PHP Development Box with Laravel 4.2, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
-- MEAN – NodeJS Development Box with MEAN 0.9.20, NodeJS, bower, MongoDB, gulp and grunt preinstalled
-- Symfony – PHP Development Box with Symfony 2.6, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
-- Sails – NodeJS Development Box with Meteor, NodeJS, NPM, bower and grunt preinstalled
-- Meteor – Meteor Development Box with Meteor, NodeJS, NPM, bower and grunt preinstalled
-- EmberJS – EmberJS Development Box with EmberJS, NodeJS, NPM, bower and grunt preinstalled
-- ioJS – ioJS Development Box with ioJS, NodeJS, NPM, bower and grunt preinstalled
-- BackboneJS – BackboneJS Development Box with BackboneJS, Apache (running on standard HTTP port – 80), NPM, bower, grunt preinstalled
-- AngularJS – AngularJS Development Box with NodeJS, MySQL, NPM, bower and grunt preinstalled
-- CakePHP – PHP Development Box with Apache (running on standard HTTP port – 80), CakePHP, PHP, MySQL (user: myapp, password: secret), and Composer preinstalled
-- Drupal – PHP Development Box with Apache (running on standard HTTP port – 80), Drupal, PHP, MySQL (myapp user secret password), phpMyAdmin and Composer preinstalled
-- LoopBack – NodeJS Development Box with LoopBack, NodeJS, MySQL, NPM, bower and grunt preinstalled
+- PHP – PHP Development Stack with Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
+- PHP7 – PHP Development Stack with Apache, PHP7, MySQL and phpMyAdmin preinstalled (only CentOS).
+- NodeJS – NodeJS Development Stack with NodeJS, MySQL, NPM, bower and grunt preinstalled
+- Ruby – Ruby Development Stack with RVM and Ruby on Rails preinstalled
+- Python – Python Development Stack with pip and virtualenv preinstalled
+- C/C++ – C/C++ Development Stack with gcc and g++ compiler and gdb preinstalled
+- HTML – HTML5 Development Stack with Apache, npm, yeoman, bower and  grunt preinstalled
+- Wordpress – PHP Development Stack with Wordpress 4.2.1, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
+- Laravel – PHP Development Stack with Laravel 4.2, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
+- MEAN – NodeJS Development Stack with MEAN 0.9.20, NodeJS, bower, MongoDB, gulp and grunt preinstalled
+- Symfony – PHP Development Stack with Symfony 2.6, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
+- Sails – NodeJS Development Stack with Meteor, NodeJS, NPM, bower and grunt preinstalled
+- Meteor – Meteor Development Stack with Meteor, NodeJS, NPM, bower and grunt preinstalled
+- EmberJS – EmberJS Development Stack with EmberJS, NodeJS, NPM, bower and grunt preinstalled
+- ioJS – ioJS Development Stack with ioJS, NodeJS, NPM, bower and grunt preinstalled
+- BackboneJS – BackboneJS Development Stack with BackboneJS, Apache (running on standard HTTP port – 80), NPM, bower, grunt preinstalled
+- AngularJS – AngularJS Development Stack with NodeJS, MySQL, NPM, bower and grunt preinstalled
+- CakePHP – PHP Development Stack with Apache (running on standard HTTP port – 80), CakePHP, PHP, MySQL (user: myapp, password: secret), and Composer preinstalled
+- Drupal – PHP Development Stack with Apache (running on standard HTTP port – 80), Drupal, PHP, MySQL (myapp user secret password), phpMyAdmin and Composer preinstalled
+- LoopBack – NodeJS Development Stack with LoopBack, NodeJS, MySQL, NPM, bower and grunt preinstalled
+- Swift – Swift Development Stack 
 
-You won't even be aware of it being created or started. You can choose between two operating systems: Ubuntu and CentOS.
+You won't even be aware of it being created or started. You can choose between two operating systems: Ubuntu 14.04 and CentOS 6.5.
 
 ![container-create](images/container-create.png "container-create")
 
@@ -94,14 +99,14 @@ Deploying with Heroku requires you to install Heroku toolbelt. You can install i
 Now you can use Heroku CLI. More detailed instruction can be found on official Heroku toolbelt website https://toolbelt.heroku.com/
 
 
-### Locate Private and Public key of a Container
+### Locate Private and Public
 
-You can view Private Key of your container by going to cd /home/cabox/.ssh/ using your SSH terminal. There you will find: 
+You can view Keys of your container by going to cd /home/cabox/.ssh/ using your SSH terminal. There you will find: 
 - id_rsa - private key container of your container, 
 - id_rsa.pub - public key of your container.
 
 
-### How to connect to a Container via SFTP?
+### Connect your Container via SFTP
 
 These are the credentials you'll need: 
 - Hostname: preview link of your container - looks something like preview.xxxx.box.codeanywhere.com and you can check it in Container's Info with a right click on your Container 

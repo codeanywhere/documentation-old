@@ -1,3 +1,7 @@
+---
+current_menu: thetopmenubar
+---
+
 ## The Top Menu Bar
 
 In this section, you can find the usual menus for creating, opening and saving files, changing your view, and switching between windows.
@@ -11,4 +15,4 @@ On the far right you can see a Profile button.
 
 <img src="images/dashboard-access.png" width="250" height="auto">
 
-It allows you to go to your [Dashboard](https://codeanywhere.com/dashboard) - where you can view your subscriptions, projects and shares, change your password or delete your account - or to log off from the Editor, returning you to the Codeanywhere homepage.
+It allows you to go to your [Dashboard](http://docs.codeanywhere.com/overview/dashboard.html) - where you can view your subscriptions, projects and shares, change your password or delete your account - or to log off from the Editor, returning you to the Codeanywhere [homepage](http://www.codeanywhere.com).

@@ -1,3 +1,7 @@
+---
+current_menu: sshcollaboration
+---
+
 ## SSH terminal real-time collaboration
 
 You shared your project and you want to give that user SSH access so you can collaborate from there? No problem! Select that connection and press share in top menu bar afterwards. 

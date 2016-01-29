@@ -1,3 +1,7 @@
+---
+current_menu: analysis
+---
+
 # Language Analysis
 
 For JavaScript files, Codeanywhere provides analysis using a combination of our own analysis tools, as well as JSHint (specifically for Javascript code). Our language analysis can't detect if your program is correct, fast, nor has memory leaks, but it can save you time by spotting things like undeclared variables, syntax errors, or other preventable typos.

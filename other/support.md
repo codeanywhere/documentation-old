@@ -1,4 +1,8 @@
-## Support
+---
+current_menu: support
+---
+
+## Getting Support
 
 If you need any assistance, feel free to contact us and we will help you as soon as possible! 
 There are several ways for you to contact us:

@@ -1,3 +1,7 @@
+---
+current_menu: sharelink
+---
+
 ## Share Link
 
 To share files with anyone, simply right-click on Project, Connection, Folder or even File in File Explorer and select the Share button. 

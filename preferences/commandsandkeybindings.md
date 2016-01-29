@@ -1,3 +1,7 @@
+---
+current_menu: commandsandkeybindings
+---
+
 # Commands and Key Bindings
 
 Nearly every action in Codeanywhere has a corresponding command associated with it. On top of that, every command also has a key binding that can be used to effortlessly execute the command.

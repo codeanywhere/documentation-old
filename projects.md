@@ -1,3 +1,7 @@
+---
+current_menu: projects
+---
+
 # Projects
 
 The Project feature allows you to organize your work into separate projects and easily switch between them without having to reload or use separate tabs. You can create as many projects as you want! 

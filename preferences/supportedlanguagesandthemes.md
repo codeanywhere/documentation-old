@@ -1,8 +1,12 @@
+---
+current_menu: supportedlanguagesandthemes
+---
+
 # Supported Languages and Themes
 
 ## Supported Languages
 
-Codeanywhere develops and builds on CodeMirror, an editor for writing code online. CodeMirror supports over two dozen different modules, and any changes made to CodeMirror are reflected back into Codeanywhere.
+Codeanywhere develops and builds on [Codemirror](https://codemirror.net/), an editor for writing code online. CodeMirror supports over two dozen different modules, and any changes made to CodeMirror are reflected back into Codeanywhere.
 By default, files are highlighted based on their file extension. You can still add new extensions in User or Project preferences and override the ones from General preferences 
 We support highlighting for the following languages and extensions by default:
 
@@ -180,3 +184,5 @@ And now you can change it inside Preferences -> User/Project -> General, by addi
 }
 ```
 And by doing this, you'll override settings from Default!
+
+![themes](images/themes.png "themes")

@@ -1,6 +1,10 @@
+---
+current_menu: general
+---
+
 # General Preferences
 
-You’ll see preferences in Top Menu bar. Default preferences can’t be changed but you can overwrite them in User or Projects settings.
+You’ll see preferences in [Top Menu Bar](http://docs.codeanywhere.com/overview/codeanywhereui/topmenubar.html). Default preferences can’t be changed but you can overwrite them in User or Projects settings.
 We’ll now take an overview of the preferences you can manage and their default values of General preferences:
 - in your workspace:
   -	Codeanywhere visual theme - currently available "monokai", "white", "dark" -
@@ -87,4 +91,4 @@ And now you can change it inside Preferences -> User/Project -> General, by addi
 	"theme": "white" 
 }
 ```
-And by doing this, you'll override settings from Default. We'll keep updating this feature so stick around!
+And by doing this, you'll override settings from Default.

@@ -1,3 +1,7 @@
+---
+current_menu: encoding
+---
+
 # Character Encoding
 
 When the file is opened you can set the encoding which will be used when saving the file. You can access the encoding menu by clicking CTRL + P, on Windows, or CMD + P, on MAC, and entering "$Encoding". Here's the list of all supported encoding:
