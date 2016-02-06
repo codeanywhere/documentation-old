@@ -11,10 +11,11 @@ See something that's not documented here? Send an e-mail to [support@codeanywher
 
 If you need any assistance, feel free to contact us and we will help you as soon as possible! 
 There are several ways for you to contact us:
-  1. E-mail - send in your request to [support@codeanywhere.com](mailto:support@codeanywhere.com)
-  2. Editor - inside your Editor, go to Help -> Create a Support Ticket, or if you want to submit a feature request, at Help -> Suggest a Feature
-  3. Chat - contact us directly from codeanywhere.com by sending us a message in your bottom left corner. Don't forget to type in your e-mail so you can receive our response
-  4. Feel free to add us on [Twitter](https://twitter.com/Codeanywhere) or [Facebook](https://www.facebook.com/Codeanywhere/)!
+  1. send in your request to [support@codeanywhere.com](mailto:support@codeanywhere.com)
+  2. inside your Editor, go to Help -> Create a Support Ticket
+  3. submit a feature request inside your Editor, at Help -> Suggest a Feature
+  3. chat - contact us directly from codeanywhere.com by sending us a message in your bottom left corner. Don't forget to type in your e-mail so you can receive our response
+  4. feel free to add us on [Twitter](https://twitter.com/Codeanywhere) or [Facebook](https://www.facebook.com/Codeanywhere/)!
 
 ## Recent updates 
 
