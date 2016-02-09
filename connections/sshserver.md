@@ -41,7 +41,7 @@ If your server is in your local network, the only way you could connect to your 
 ### Server response
 
 While working with FileZilla you are directly connected from local computer to your server, on the other hand the Codeanywhere is acting as a "middle man" between user and SFTP-SSH - any action done by user is firstly processed at our server and then sent to the your server. Same thing works in opposite direction, server sends response to Codeanywhere and then Codeanywhere forwards the response back to user.
-Also, the speed of the server response is depending on the server location. If your server is located it America, the response will be faster, but if it's located in China it will be slower. 
+Also, the speed of the server response depends on the server location. If your server is located it America, the response will be faster, but if it's located in China it will be slower. 
 We do plan to expand our server coverage around the world for faster connections!
 
 ### IP whitelist
@@ -56,5 +56,4 @@ While performing actions using Codeanywhere, the requests are sent from our app 
 - 54.187.44.75
 - 54.191.40.18
 
-If you have no administration rights on the server, please ask your administrator whitelists these IP’s.
-
+If you have no administration rights on the server, please ask your administrator whitelist these IP’s.
