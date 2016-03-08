@@ -27,7 +27,9 @@ Containers are in essence your own Virtual Private Servers run invisibly in the 
 - CakePHP – PHP Development Stack with Apache (running on standard HTTP port – 80), CakePHP, PHP, MySQL (user: myapp, password: secret), and Composer preinstalled
 - Drupal – PHP Development Stack with Apache (running on standard HTTP port – 80), Drupal, PHP, MySQL (myapp user secret password), phpMyAdmin and Composer preinstalled
 - LoopBack – NodeJS Development Stack with LoopBack, NodeJS, MySQL, NPM, bower and grunt preinstalled
-- Swift – Swift Development Stack 
+- Swift – Swift Development Stack
+- Java – Java Development Stack with OpenJDK7, OpenJDE7 and Tomcat7 preinstalled
+
 
 You won't even be aware of it being created or started. You can choose between two operating systems: Ubuntu 14.04 and CentOS 6.5.
 
@@ -65,19 +67,6 @@ Create any file, by entering filename.extension, or folder inside your container
  
 In case you want to delete your entire Container, just click Destroy. However, keep in mind that your work will be removed and you wont be able to retrieve it afterwards!
 
-### PHPMyAdmin
-
-PhpMyAdmin comes preinstalled with our Containers (both CentOS and Ubuntu). To access it first open the info by right-clicking the Container in File Explorer:
-
-![phpinfo](images/container-info.png "container-info")
-
-At the top of your Info page, you can see your Username and Password. Copy the link into the new tab of your browser and add „/phpmyadmin“ at the end of the link to access phpMyAdmin – it will look something like: http://preview.xxxxxx.box.codeanywhere.com/phpmyadmin or, in this example, http://port-80.xxxxxx.box.codeanywhere.com/phpmyadmin. For login use the "root" as Username, and leave the Password field empty:
- 
-![phppmyadmin](images/phpmyadmin.png "phppmyadmin")
-
-Username and password will vary depending on the Stack you choose!
-
-If you want to be able to access your Container at all times, you can activate our feature Always-on, which will keep your Container running even when you're not using Codeanywhere!
 
 ### Creating a Custom Stack
 
