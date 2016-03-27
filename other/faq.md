@@ -79,7 +79,7 @@ Putty config:
 1. open your Terminal
 2. type in ssh-keygen and you will create your public key
 3. go to .ssh/id_rsa.pub and copy your entire key
-4. In Codeanywhere, in Container's SSH, use command: .ssh/id_rsa.pub
+4. In Codeanywhere, in Container's SSH, use command: cat .ssh/id_rsa.pub
 5. use command vim authorized_keys
 6. (type "A" or "I") paste your key in new line and Save (by pressing ESC, and entering :wq)
 7. Locate SSH port number in Container's Info
