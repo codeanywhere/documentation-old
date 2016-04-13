@@ -4,6 +4,8 @@ current_menu: gitfromurl
 
 # Git from URL
 
+Codeanywhere will create a [Container](http://docs.codeanywhere.com/connections/container.html) for each repository and you will be able to edit your code directly from there. Then, you can push changes back to your repo using your SSH Terminal! Just check our [Working with Repositories section](http://docs.codeanywhere.com/connections/gitfromurl.html#working-with-repositories) for further instructions.
+
 ### Creating an Git Container from URL
 
 Go to File -> New Connection -> GitFromURL

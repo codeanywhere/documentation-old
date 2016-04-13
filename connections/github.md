@@ -4,8 +4,7 @@ current_menu: github
 
 # GitHub
 
-
-With Codeanywhere, you’ll be able to work directly with your GitHub repositories. 
+With Codeanywhere, you’ll be able to work directly with your GitHub repositories. CA will create a [Container](http://docs.codeanywhere.com/connections/container.html) for each repository and you will be able to edit your code directly from there. Then, you can push changes back to your repo using your SSH Terminal! Just check our [Working with Repositories section](http://docs.codeanywhere.com/connections/github.html#working-with-repositories) for further instructions.
 
 ### Creating an GitHub Container
 
