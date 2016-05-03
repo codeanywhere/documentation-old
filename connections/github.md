@@ -4,7 +4,9 @@ current_menu: github
 
 # GitHub
 
-With Codeanywhere, you’ll be able to work directly with your GitHub repositories. CA will create a [Container](http://docs.codeanywhere.com/connections/container.html) for each repository and you will be able to edit your code directly from there. Then, you can push changes back to your repo using your SSH Terminal! Just check our [Working with Repositories section](http://docs.codeanywhere.com/connections/github.html#working-with-repositories) for further instructions.
+With Codeanywhere, you’ll be able to work directly with your GitHub repositories. Codeanywhere will create a [Container](http://docs.codeanywhere.com/connections/container.html) for each repository and you will be able to edit your code directly from there. Containers are in essence your own Virtual Private Servers run invisibly in the background of Codeanywhere, each one with its own amount of RAM, Disk space and Processing power. DevBoxes give you the ability to provision any Development Environment you like or you can select between the number of our predefined stacks! You won't even be aware of it being created or started. 
+After your repositroy is imported, you can edit and preview your code. Then, you can push changes back to your repo using your SSH Terminal! Just check our [Working with Repositories section](http://docs.codeanywhere.com/connections/github.html#working-with-repositories) for further instructions.
+
 
 ### Creating an GitHub Container
 

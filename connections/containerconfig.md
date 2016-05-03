@@ -24,9 +24,13 @@ In Config, you can set up commands necessary for your Stack to Run.
 Let's say, you have an app inside your workspace folder /path/to/folder/. 
 By default current working dir is set to be /workspace/. By changing "cwd": "~/workspace" to "cwd": "~/workspace/path/to/folder", you can set the file path which will be used upon Runing your app.
 
-Inside "commands" you can set any commands necesary for running your container. 
+cwd (curent working directory) is the location in which your run commands should be located. The default location is ~/workspace, if your commands are located in a subdirectory named "test” then cwd should be ~/workspace/test.
+
 <img src="images/container-config-cwd.png" width="300" height="auto">
 
+NOTE: containers hosting content via Apache (example: html, php) expect that content to be located at ~/workspace, if you keep your content in another directory you should edit or create the ~/workspace/.htaccess file to point at that directory.
+
+Inside "commands" you can set any commands necesary for running your container.
 
 In "commands": [], set command neccessary for running your app, such as: "grunt", "ember server", "rails server" ect, depending on your app.
 

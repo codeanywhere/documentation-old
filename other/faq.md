@@ -4,6 +4,17 @@ current_menu: otherq
 
 # FAQ
 
+
+### How can I preview my code?
+
+You will need to copy your code into an Container. Containers are basically Virtual Machines and you can use them for all your coding. Each one with its own amount of RAM, Disk space and Processing power. Containers give you the ability to provision any Development Environment you like. You can even choose between one of the predefined stacks. Place your code in, right click and select Run and that's it! If you need an quick tutorial for setting this up, check [here](docs.codeanywhere.com/quicktutorial.html). You can also check [here](http://docs.codeanywhere.com/connections/container.html) for more details on Containers!
+
+
+### How can I use Git with Codeanywhere?
+
+Codeanywhere will create a [Container](http://docs.codeanywhere.com/connections/container.html) for each repository and you will be able to edit your code directly from there. Then, you can push changes back to your repo using your SSH Terminal! Just check our [Working with Repositories section](http://docs.codeanywhere.com/advancedtopics/gitcommands.html) for further instructions.
+
+
 ### Why is working with FTP slower on Codeanywhere than with the FileZilla?
 
 While working with FileZilla you are directly connected from local computer to your server, on the other hand the Codeanywhere is acting as a "middle man" between user and ftp - any action done by user is firstly processed at our server and then sent to the ftp. Same thing works in opposite direction, ftp sends response to Codeanywhere and then Codeanywhere forwards the response back to user.

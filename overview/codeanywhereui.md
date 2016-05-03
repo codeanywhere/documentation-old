@@ -30,7 +30,8 @@ Codeanywhere can be thought of as being divided into the following components:
 1. The top menu bar is the uppermost area, with easy access to a variety of menus
 2. The file explorer on the left lets you manipulate various aspects of your project, including its active files, preferences, and choices for deployment. It also displays views according to what's been selected in the file explorer
 3. The editor is the main area where you write your code
-4. The status bar is the bottom area of the window. It shows all sorts of information about your code
+4. Terminal allows you to SSH directly from your browser
+5. The status bar is the bottom area of the window. It shows all sorts of information about your code
 
 ![editor](images/editor.png "editor")
 
