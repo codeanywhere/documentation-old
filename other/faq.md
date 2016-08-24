@@ -7,7 +7,7 @@ current_menu: otherq
 
 ### How can I preview my code?
 
-You will need to copy your code into an Container. Containers are basically Virtual Machines and you can use them for all your coding. Each one with its own amount of RAM, Disk space and Processing power. Containers give you the ability to provision any Development Environment you like. You can even choose between one of the predefined stacks. Place your code in, right click and select Run and that's it! If you need an quick tutorial for setting this up, check [here](docs.codeanywhere.com/quicktutorial.html). You can also check [here](http://docs.codeanywhere.com/connections/container.html) for more details on Containers!
+You will need to copy your code into a Container. Containers are basically Virtual Machines and you can use them for all your coding. Each one with its own amount of RAM, Disk space and Processing power. Containers give you the ability to provision any Development Environment you like. You can even choose between one of the predefined stacks. Place your code in, right click and select Run and that's it! If you need a quick tutorial for setting this up, check [here](docs.codeanywhere.com/quicktutorial.html). You can also check [here](http://docs.codeanywhere.com/connections/container.html) for more details on Containers!
 
 
 ### How can I use Git with Codeanywhere?
