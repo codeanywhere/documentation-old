@@ -1,0 +1,215 @@
+template:
+  directory: Template-Light
+  index: welcome.md
+
+# Any variable you put in this file is also available in the Twig layouts:
+title: Codeanywhere
+
+menu:
+  sections:
+    introduction:
+      name: Getting Started
+      items:
+          welcome:
+            text: Welcome
+            relativeUrl: index.html
+          whatiscodeanywhere:
+            text: What is Codeanywhere?
+            relativeUrl: whatiscodeanywhere.html
+          quicktutorial:
+            text: Quick Tutorial
+            relativeUrl: quicktutorial.html
+          otherq:
+            text: FAQ
+            relativeUrl: other/faq.html
+    overview:
+      name: Codeanywhere Overview
+      items:
+          registerlogin:
+              text: Register/Login
+              relativeUrl: overview/registerlogin.html
+          codeanywhereui:
+              text: Codeanywhere UI
+              relativeUrl: overview/codeanywhereui.html
+          thetopmenubar:
+              text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> The Top Menu Bar</span>"
+              relativeUrl: overview/codeanywhereui/thetopmenubar.html
+          fileexplorer:
+              text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> File Explorer</span>"
+              relativeUrl: overview/codeanywhereui/fileexplorer.html
+          thecodeeditor:
+              text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> The Code Editor</span>"
+              relativeUrl: overview/codeanywhereui/thecodeeditor.html
+          terminal:
+              text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> Terminal</span>"
+              relativeUrl: overview/codeanywhereui/terminal.html
+          statusbar:
+              text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> Status Bar</span>"
+              relativeUrl: overview/codeanywhereui/statusbar.html
+          dashboard:
+              text: Dashboard
+              relativeUrl: overview/dashboard.html
+          projects:
+              text: Projects
+              relativeUrl: projects.html
+    connections:
+      name: Connections
+      items:
+          container:
+              text: Container
+              relativeUrl: connections/container.html
+          containerconfig:
+              text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> Container Configuration </span>"
+              relativeUrl: connections/containerconfig.html
+          phpmyadmin:
+              text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> PHPMyAdmin </span>"
+              relativeUrl: connections/phpmyadmin.html
+          settingdomain:
+              text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> Setting Custom Domain </span>"
+              relativeUrl: connections/settingdomain.html
+          github:
+              text: GitHub
+              relativeUrl: connections/github.html 
+          bitbucket:
+              text: BitBucket
+              relativeUrl: connections/bitbucket.html
+          gitfromurl:
+              text: Git from URL
+              relativeUrl: connections/gitfromurl.html
+          ftpserver:
+              text: FTP
+              relativeUrl: connections/ftpserver.html
+          sshserver:
+              text: SFTP - SSH
+              relativeUrl: connections/sshserver.html
+          googledrive:
+              text: Google Drive
+              relativeUrl: connections/googledrive.html
+          dropbox:
+              text: Dropbox
+              relativeUrl: connections/dropbox.html
+          amazons3:
+              text: Amazon S3
+              relativeUrl: connections/amazons3.html
+          digitalocean:
+              text: DigitalOcean
+              relativeUrl: connections/digitalocean.html
+          onedrive:
+              text: OneDrive
+              relativeUrl: connections/onedrive.html
+    preferences:
+      name: Preferences
+      items:
+        preferences_structure:
+            text: Preferences Structure
+            relativeUrl: preferences/preferences_structure.html
+        general:
+            text: General
+            relativeUrl: preferences/general.html
+        commandsandkeybindings:
+            text: Key Bindings
+            relativeUrl: preferences/commandsandkeybindings.html
+        filetypes:
+            text: FileTypes
+            relativeUrl: preferences/filetypes.html
+        analysis:
+            text: Linting
+            relativeUrl: preferences/analysis.html
+        snippets:
+            text: Snippets
+            relativeUrl: preferences/snippets.html
+    features:
+      name: Codeanywhere Features
+      items:
+        colorpicker:
+            text: Color Picker
+            relativeUrl: features/colorpicker.html
+        share:
+            text: Share
+            relativeUrl: features/share.html
+        sharelink:
+            text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> Share Link</span>"
+            relativeUrl: features/share/sharelink.html
+        collaboration:
+            text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> Pair Programming</span>"
+            relativeUrl: features/share/collaboration.html
+        sshcollaboration:
+            text: "<span class='subnav-indent'><i class='fa fa-caret-right'></i> SSH Realtime Collaboration</span>"
+            relativeUrl: features/share/sshcollaboration.html
+        revisions:
+            text: Revisions
+            relativeUrl: features/revisions.html
+        minimap:
+            text: Mini Map
+            relativeUrl: features/minimap.html
+        search:
+            text: Searching and Replacing in Files
+            relativeUrl: features/search.html
+        encoding:
+            text: Character Encoding
+            relativeUrl: features/encoding.html
+        multiplelicense:
+            text: Multiple Licenses
+            relativeUrl: features/multiplelicense.html
+        previewurl:
+            text: Preview Files
+            relativeUrl: features/previewfiles.html
+        twofactorauth:
+            text: Two Factor Authentication
+            relativeUrl: features/twofactorauth.html
+        bookmarks:
+            text: Bookmarks
+            relativeUrl: features/bookmarks.html
+    advancedtopics:
+      name: Advanced Topics
+      items:
+        subversion:
+            text: Subversion
+            relativeUrl: advancedtopics/svn.html
+        sass:
+            text: Installing SASS
+            relativeUrl: advancedtopics/sass.html
+        gitcommands:
+            text: Working with repositories
+            relativeUrl: advancedtopics/gitcommands.html
+        htaccess:
+            text: Changing document root in container
+            relativeUrl: advancedtopics/htaccess.html
+    management:
+      name: Account Management
+      items:
+        pricing:
+            text: Purchasing a premium plan
+            relativeUrl: pricing/pricing.html
+        addons:
+            text: Addons
+            relativeUrl: pricing/addons.html
+        trialplan:
+            text: Trial Plan
+            relativeUrl: pricing/trialplan.html
+        cancellation:
+            text: Premium Plan Cancellation
+            relativeUrl: pricing/cancellation.html
+        closeaccount:
+            text: Close account
+            relativeUrl: pricing/closeaccount.html
+    other:
+      name: Other
+      items:
+        support:
+            text: Getting Support
+            relativeUrl: other/support.html
+        
+        
+  
+      
+branch: gh-pages
+# Base URL of the published website (no "/" at the end!)
+baseUrl: http://docs.codeanywhere.com
+cname: docs.codeanywhere.com
+# You are advised to set and use this variable to write your links in the HTML layouts
+
+# Used to link to the GitHub project
+github:
+    user: codeanywhere
+    repo: documentation

@@ -54,4 +54,3 @@ git commit -am "message" // To commit changes
 git push origin master // Push your local changes to bitbucket
 
 For more information see [working with repositories](http://docs.codeanywhere.com/connections/bitbucket.html#working-with-repositories)
-

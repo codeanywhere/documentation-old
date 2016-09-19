@@ -8,9 +8,13 @@ Snippets are smart templates that will insert text for you and adapt it to their
 
 ### Creating Snippets
 
-You can define your snippets for specific languages in User or Project Preferences in a JSON format. 
+Using GUI Preferences, you can remove existing snippets or add a new one using option menu and when you are done, just choose "Save" option.
 
-You can check all predefined snippets in General Preferences. Here is a For Loop snippet for JavaScript as defined in Preferences -> General -> Snippets:
+![goto](images/snippets.png "snippets")
+
+You can define your snippets for specific languages in User or Project Preferences in a JSON format as well. 
+
+Here is an example for "For Loop" snippet for JavaScript:
 
 ```
    "For Loop": {
@@ -44,9 +48,9 @@ Since the syntax is like this: ${id:label}, each acts as a default value for a t
 Identical field markers mirror each other: when you edit the first one, the rest will be populated with the same value in real time.
 By expanding the field syntax a little bit, you can define default values for a field. Placeholders are useful when there’s a general case for your snippet but you still want to keep its customization convenient.
 
-In order to edit Snippet file go to Preferences -> User/Project -> Snippets, and override settings defined in General Preferences.
+In order to edit Snippet file go to Preferences -> User/Project -> Snippets
 
-For example, in order to change For Loop defined in General Preferences, go to Preferences -> User/Project -> Snippets and type:
+For example, in order to change For Loop defined in Default Preferences, go to Preferences -> User/Project -> Snippets and type:
 
 ```
    "For Loop": {
@@ -65,3 +69,74 @@ For example, in order to change For Loop defined in General Preferences, go to P
 ```
 
 This will change your For Loop for javascript to start defining array and then index.
+
+All Default Snippets Preferences:
+```
+{
+  "Anonymous function": {
+    "prefix": "fn",
+    "body": [
+      "function() {",
+      "\t$1",
+      "}"
+    ],
+    "scope": {
+      "mode": ["JavaScript"]
+    },
+    "description": "Anonymous function snippet"
+  },
+  
+  "console.log": {
+    "prefix": "log",
+    "body": [
+      "console.log($1)$2"
+    ],
+    "scope": {
+      "mode": ["JavaScript"]
+    },
+    "description": "console.log snippet"
+  },
+  
+  "For Loop": {
+    "prefix": "for",
+    "body": [
+      "for (var ${1:index} = 0; ${1:index} < ${2:array}.length; ${1:index}++) {",
+      "\tvar ${3:element} = ${2:array}[${1:index}];",
+      "\t$4",
+      "}"
+    ],
+    "scope": {
+      "mode": ["JavaScript"]
+    },
+    "description": "For Loop snippet"
+  },
+  
+  "if/else": {
+    "prefix": "ife",
+    "body": [
+      "if ($1) {",
+      "\t$2",
+      "} else {",
+      "\t$3",
+      "}"
+    ],
+    "scope": {
+      "mode": ["JavaScript"]
+    },
+    "description": "if/else condition snippet"
+  },
+  
+  "While Loop": {
+    "prefix": "while",
+    "body": [
+      "while (${1:expression}) {",
+      "\t$2",
+      "}"
+    ],
+    "scope": {
+      "mode": ["JavaScript"]
+    },
+    "description": "While Loop snippet"
+  }
+}
+```

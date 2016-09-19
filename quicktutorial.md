@@ -20,7 +20,7 @@ In order to start a new [Container](https://codeanywhere.com/dashboard), go to F
 <img src="images/tutorial1.png" width="300" height="auto">
 
 
-Now, you can choose which predefined stack you’d use. In this tutorial, we’ll create an simple PHP container. Choose which OS you’d like to use - Ubuntu or CentOS - and decide whether you’d like for your Container to be Always on - meaning it will be turned on even when you’re offline. 
+Now, you can choose which predefined stack you’d use. In this tutorial, we’ll create a simple PHP container. Choose which OS you’d like to use - Ubuntu or CentOS - and decide whether you’d like for your Container to be Always on - meaning it will be turned on even when you’re offline. 
 
 
 <img src="images/container-php.png" width="350" height="auto">
@@ -37,7 +37,7 @@ With a right click on your Container, choose to Create a File, and name it “in
 <img src="images/createfile.png" width="250" height="auto">
 
 
-You can see in your file tree that your Container is already updated! Go to your file and enter some code - in this example we created an simple “Hello World” app.
+You can see in your file tree that your Container is already updated! Go to your file and enter some code - in this example we created a simple “Hello World” app.
 
 
 <img src="images/indexphp.png" width="300" height="auto">

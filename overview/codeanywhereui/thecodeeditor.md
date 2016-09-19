@@ -13,5 +13,4 @@ In order to create a file, also right click on a connection/folder where you'd l
 Codeanywhere offers [syntax highlighting](http://docs.codeanywhere.com/preferences/supportedlanguagesandthemes.html) for over 100 programming languages.
 
 The code editor supports a large number of keyboard [shortcuts](http://docs.codeanywhere.com/preferences/commandsandkeybindings.html) to increase your productivity. For an up-to-date list of these within the Editor, simply go to Preferences and depending on Default, Project or User select Key bindings where you can change them.
-There, you can also set up your own keyboard shortcuts.
 

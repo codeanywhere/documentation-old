@@ -5,7 +5,7 @@ current_menu: welcome
 # Welcome
 
 Welcome to the official Codeanywhere documentation! Here you'll find articles and tutorials to help you get started with the Codeanywhere platform. These include everything from setting up your editor, to learning how to deploy your code!
-See something that's not documented here? Send an e-mail to [support@codeanywhere.com](mailto:support@codeanywhere.com) and we'll get it in..
+See something that's not documented here? Send an e-mail to [support@codeanywhere.com](mailto:support@codeanywhere.com) and we'll get it in.
 
 ## Getting More Help
 
