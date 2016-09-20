@@ -99,12 +99,13 @@ You can view Keys of your container by going to cd /home/cabox/.ssh/ using your 
 - id_rsa.pub - public key of your container.
 
 
-### Connect your Container via SFTP
+### Connect your Container via SSH
+
+![containerhostname](images/container-hostname.png "container-hostname")
 
 These are the credentials you'll need: 
-- Hostname: preview link of your container - looks something like preview.xxxx.box.codeanywhere.com and you can check it in Container's Info with a right click on your Container 
+- Hostname and port: check it in Container's Info with a right click on your Container, select Info, locate SSH access, and that's the hostname and port you have to use.
 - User name: cabox 
-- As for the password, you can't connect this way. You'll need private key of your Container and you can get it by going to /home/cabox/.ssh/id_rsa and that's your private key which you can use for connecting to your Container. 
-- Also, you'll need to check your Port - right click on your Container, select Info, locate SSH Terminal listening on port, and that's the port you have to use for connecting to SFTP.
+- As for the password, you can't connect this way. You'll need private key of your Container and you can get it by going to /home/cabox/.ssh/id_rsa and that's your private key which you can use for connecting to your Container.
 
 Containers are available to all users, just login and try it out!
