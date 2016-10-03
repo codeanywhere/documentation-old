@@ -73,7 +73,7 @@ Container config:
 Putty config: 
 	1. Start PuTTY by double-clicking its executable file; 
 	2. PuTTY's initial window is the Session Category (navigate PuTTY's various categories, along the left-hand side of the window); 
-	3. In the Host Name field, enter the Container’s DNS (preview.xxxxx.box.codeanywhere.com) 
+	3. In the Host Name field, enter the Container’s Host Name (hostXX.codeanyhost.com) 
 	4. Enter the port number in the Port field (see Container info) 
 	5. Select SSH under Protocol; 
 	6. Along the left-hand side of the window, select the Data sub-category, under Connection; 
@@ -97,7 +97,7 @@ Putty config:
 
 Now in order to connect to your box, you have to use the following command to create a tunnel from your local machine to your Container:
 ```sh
-ssh -P port cabox@preview.xxx.box.codeanywhere.com -i id_rsa.pub
+ssh -P port cabox@hostXX.codeanyhost.com -i id_rsa.pub
 ```
 
 ### How to connect local MySQL to a Container?
@@ -108,7 +108,7 @@ After connecting to your local machine via Putty or Terminal, connect to your re
 ### How can I connect to a Container via FTP?
 
 You can't connect via FTP but you can connect as SFTP. These are the credentials you'll need: 
-- Hostname: preview link of your container - looks something like preview.xxxx.box.codeanywhere.com and you can check it in Container's Info with a right click on your Container 
+- Hostname: hostname of your container - looks something like hostXX.codeanyhost.com and you can check it in Container's Info with a right click on your Container 
 - User name: cabox 
 - As for the password, you can't connect this way. You'll need private key of your Container and you can get it by going to /home/cabox/.ssh/id_rsa and that's your private key which you can use for connecting to your Container. 
 - Also, you'll need to check your Port - right click on your Container, select Info, locate SSH Terminal listening on port, and that's the port you have to use for connecting to SFTP.
@@ -138,7 +138,7 @@ Some of our stacks will default the IP to the localhost: 127.0.0.1. You have to 
 
 For example, on Ruby stack, you just have to use the following command in order to run your Rails container: "rails s --binding=0.0.0.0" 
 This will override localhost (127.0.0.1) where your app can't work.	
-And now, you'll be able to view your Ruby app on: preview.xxxxxx.box.codeanywhere.com:3000.
+And now, you'll be able to view your Ruby app on: containername-username.codeanyapp.com:3000.
 
 
 
