@@ -22,7 +22,7 @@ You can use your preview link or, if you want to used the one with specified por
 In Config, you can set up commands necessary for your Stack to Run. 
 
 Let's say, you have an app inside your workspace folder /path/to/folder/. 
-By default current working dir is set to be /workspace/. By changing "cwd": "~/workspace" to "cwd": "~/workspace/path/to/folder", you can set the file path which will be used upon Runing your app.
+By default current working dir is set to be /workspace/. By changing "cwd": "~/workspace" to "cwd": "~/workspace/path/to/folder", you can set the file path which will be used upon running your app.
 
 cwd (curent working directory) is the location in which your run commands should be located. The default location is ~/workspace, if your commands are located in a subdirectory named "test” then cwd should be ~/workspace/test.
 
