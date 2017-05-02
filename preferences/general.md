@@ -65,7 +65,16 @@ All Default General Preferences:
     "dblclick": false,
 
     // show hidden files and folders
-    "show_hidden_files": true
+    "show_hidden_files": true,
+
+    // show open files
+    "show_open_files": true,
+
+    // should horizontal scroll be enabled
+    "horizontal_scroll": false,
+
+    // should drag & drop be disabled
+    "dragDrop_disabled": false
   },
 
   "editor": {
@@ -77,6 +86,8 @@ All Default General Preferences:
 
     // show code completions while typing 
     "autocomplete": true,
+
+    "bookmarks": true,
 
     // whether to periodically save unsaved opened tabs 
     "autosave": false,

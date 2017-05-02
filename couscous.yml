@@ -160,6 +160,9 @@ menu:
         bookmarks:
             text: Bookmarks
             relativeUrl: features/bookmarks.html
+        openfiles:
+            text: Open Files
+            relativeUrl: features/openfiles.html
     advancedtopics:
       name: Advanced Topics
       items:
