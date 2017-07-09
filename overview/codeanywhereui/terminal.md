@@ -68,5 +68,5 @@ Putty config:
 
 Now in order to connect to your box, you have to use the following command to create a tunnel from your local machine to your Container:
 ```sh
-ssh -P port cabox@preview.xxx.box.codeanywhere.com -i id_rsa.pub
+ssh -p port_number cabox@preview.xxx.box.codeanywhere.com -i ~/.ssh/id_rsa
 ```
