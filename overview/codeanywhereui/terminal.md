@@ -44,7 +44,7 @@ Container config:
 Putty config: 
 	1. Start PuTTY by double-clicking its executable file; 
 	2. PuTTY's initial window is the Session Category (navigate PuTTY's various categories, along the left-hand side of the window); 
-	3. In the Host Name field, enter the Container’s DNS (preview.xxxxx.box.codeanywhere.com) 
+	3. In the Host Name field, enter the Container’s hostname (hostXX.codeanyhost.com) 
 	4. Enter the port number in the Port field (see Container info) 
 	5. Select SSH under Protocol; 
 	6. Along the left-hand side of the window, select the Data sub-category, under Connection; 
