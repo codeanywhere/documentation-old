@@ -64,8 +64,8 @@ Putty config:
 4. In Codeanywhere, in Container's SSH, use command: cat .ssh/id_rsa.pub
 5. use command vim authorized_keys
 6. (type "A" or "I") paste your key in new line and Save (by pressing ESC, and entering :wq)
-7. Check your container's /etc/ssh/ssh_config file to have 'RSAAuthentication' and 'PubkeyAuthentication' set to 'yes'
-8. In case you update ssh_config file remember to restart ssh service with 'sudo service ssh restart'
+7. Check your container's /etc/ssh/sshd_config file to have 'RSAAuthentication' and 'PubkeyAuthentication' set to 'yes'
+8. In case you update sshd_config file remember to restart ssh service with 'sudo service ssh restart'
 9. Locate SSH port number in Container's Info
 
 Now in order to connect to your box, you have to use the following command to create a tunnel from your local machine to your Container:
