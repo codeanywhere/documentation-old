@@ -284,6 +284,11 @@
                                       Open Files
                                   </a>
                                </li>
+                                                        <li class="">
+                                  <a href="/features/vimmode.html">
+                                      Vim Mode
+                                  </a>
+                               </li>
                                               </ul>
                                         <p class="menu-section">
                          Advanced Topics
@@ -375,15 +380,15 @@ Behind the scenes it looks something like this: </p>
 <h3 id="why-is-my-server-not-responding-after-i-made-few-requests-but-after-an-hour-works-fine-again">Why is my server not responding after I made few requests, but after an hour works fine again?</h3>
 <p>While performing actions using Codeanywhere, the requests are sent from our app to your server. Sometimes the number of requests cause your server to block the requests and add Codeanywhere to a blacklist. To avoid this you must make sure that your server is reachable from the following IP addresses:</p>
 <ul>
-<li>54.69.152.243</li>
-<li>54.186.244.104</li>
+<li>65.52.184.164</li>
+<li>51.141.5.180</li>
+<li>52.161.27.120</li>
 <li>54.187.136.143</li>
 <li>54.187.142.118</li>
 <li>54.187.182.165</li>
 <li>54.187.44.75</li>
-<li>54.191.40.18</li>
 </ul>
-<p>If you have no administration rights on the server, please ask your administrator whitelist these IP’s.</p>
+<p>If you have no administration rights on the server, please ask your administrator to whitelist these IP’s.</p>
 <h3 id="how-to-connect-local-machine-to-a-container-via-putty">How to connect local machine to a Container via Putty?</h3>
 <p>Here are the complete instructions for connecting to your container with Putty:</p>
 <p>To generate a set of RSA keys with PuTTYgen: </p>
@@ -434,7 +439,7 @@ Behind the scenes it looks something like this: </p>
 <li>Locate SSH port number in Container's Info</li>
 </ol>
 <p>Now in order to connect to your box, you have to use the following command to create a tunnel from your local machine to your Container:</p>
-<pre><code class="language-sh">ssh -P port cabox@hostXX.codeanyhost.com -i id_rsa.pub</code></pre>
+<pre><code class="language-sh">ssh -p port cabox@hostXX.codeanyhost.com -i id_rsa.pub</code></pre>
 <h3 id="how-to-connect-local-mysql-to-a-container">How to connect local MySQL to a Container?</h3>
 <p>After connecting to your local machine via Putty or Terminal, connect to your remote MySQL using: localhost:3306</p>
 <h3 id="how-can-i-connect-to-a-container-via-ftp">How can I connect to a Container via FTP?</h3>

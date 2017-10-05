@@ -234,7 +234,7 @@
                                       <span class='subnav-indent'><i class='fa fa-caret-right'></i> Pair Programming</span>
                                   </a>
                                </li>
-                                                        <li class="active">
+                                                        <li class="">
                                   <a href="/features/share/sshcollaboration.html">
                                       <span class='subnav-indent'><i class='fa fa-caret-right'></i> SSH Realtime Collaboration</span>
                                   </a>
@@ -284,7 +284,7 @@
                                       Open Files
                                   </a>
                                </li>
-                                                        <li class="">
+                                                        <li class="active">
                                   <a href="/features/vimmode.html">
                                       Vim Mode
                                   </a>
@@ -363,14 +363,33 @@
                         </div>
           <div>
             <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
-              <h2 id="ssh-terminal-real-time-collaboration">SSH terminal real-time collaboration</h2>
-<p>You shared your project and you want to give that user SSH access so you can collaborate from there? No problem! Select that connection and press share in top menu bar afterwards. </p>
-<p><img src="images/shareicon.png" alt="shareicon" title="shareicon" /></p>
-<p>Please keep in mind that your SSH should be open. Your collaborator will receive a notification in top right corner that says: &quot;user@mail.com has requested SSH terminal session collaboration on connection name_of_connection with you&quot;.</p>
+              <h1 id="vim-mode">Vim Mode</h1>
+<p>If you want to use Vim keybindings in your editor, you can enable it in &quot;General preferences&quot;:</p>
+<p><img src="images/generalprefs.png" alt="minimap" title="generalprefs" /></p>
+<p>When enabled, in &quot;normal vim mode&quot; you should see a cursor like this:</p>
+<img src="images/vimcursor.png" style="max-width: 840px">
+<p>&quot;command-line vim mode&quot; can be opened using &quot;:&quot; key:</p>
+<img src="images/vimcommand.png" style="max-width: 840px">
+<h2 id="features">Features</h2>
+<ul>
+<li>All common motions and operators, including text objects</li>
+<li>Operator motion orthogonality</li>
+<li>Visual mode - characterwise, linewise, blockwise</li>
+<li>Full macro support (q, @)</li>
+<li>Incremental highlighted search (/, ?, #, <em>, g#, g</em>)</li>
+<li>Search/replace with confirm (:substitute, :%s)</li>
+<li>Search history</li>
+<li>Jump lists (Ctrl-o, Ctrl-i)</li>
+<li>Key/command mapping with API (:map, :nmap, :vmap)</li>
+<li>Sort (:sort)</li>
+<li>Marks (`, ')</li>
+<li>:global</li>
+<li>Cross-buffer yank/paste</li>
+</ul>
             </section>
           </br>
             <footer>
-                         <a href="https://github.com/codeanywhere/documentation/blob/master/features/share/sshcollaboration.md">
+                         <a href="https://github.com/codeanywhere/documentation/blob/master/features/vimmode.md">
                 Improve this Documentation
              </a>
                

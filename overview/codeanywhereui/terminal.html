@@ -284,6 +284,11 @@
                                       Open Files
                                   </a>
                                </li>
+                                                        <li class="">
+                                  <a href="/features/vimmode.html">
+                                      Vim Mode
+                                  </a>
+                               </li>
                                               </ul>
                                         <p class="menu-section">
                          Advanced Topics
@@ -392,7 +397,7 @@
 <ol>
 <li>Start PuTTY by double-clicking its executable file; </li>
 <li>PuTTY's initial window is the Session Category (navigate PuTTY's various categories, along the left-hand side of the window); </li>
-<li>In the Host Name field, enter the Container’s DNS (preview.xxxxx.box.codeanywhere.com) </li>
+<li>In the Host Name field, enter the Container’s hostname (hostXX.codeanyhost.com) </li>
 <li>Enter the port number in the Port field (see Container info) </li>
 <li>Select SSH under Protocol; </li>
 <li>Along the left-hand side of the window, select the Data sub-category, under Connection; </li>
@@ -415,7 +420,7 @@
 <li>Locate SSH port number in Container's Info</li>
 </ol>
 <p>Now in order to connect to your box, you have to use the following command to create a tunnel from your local machine to your Container:</p>
-<pre><code class="language-sh">ssh -P port cabox@preview.xxx.box.codeanywhere.com -i id_rsa.pub</code></pre>
+<pre><code class="language-sh">ssh -p port cabox@hostXX.codeanyhost.com -i id_rsa.pub</code></pre>
             </section>
           </br>
             <footer>
