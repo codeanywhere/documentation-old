@@ -163,6 +163,9 @@ menu:
         openfiles:
             text: Open Files
             relativeUrl: features/openfiles.html
+        vimmode:
+            text: Vim Mode
+            relativeUrl: features/vimmode.html
     advancedtopics:
       name: Advanced Topics
       items:
