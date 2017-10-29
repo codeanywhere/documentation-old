@@ -60,12 +60,12 @@ We do plan to expand our server coverage around the world for faster connections
 
 While performing actions using Codeanywhere, the requests are sent from our app to your server. You must make sure that your server is reachable from the following IP addresses:
 
-- 54.69.152.243
-- 54.186.244.104
+- 65.52.184.164
+- 51.141.5.180
+- 52.161.27.120
 - 54.187.136.143
 - 54.187.142.118
 - 54.187.182.165
 - 54.187.44.75
-- 54.191.40.18
 
 If you have no administration rights on the server, please ask your administrator whitelist these IP’s.
