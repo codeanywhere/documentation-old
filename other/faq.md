@@ -97,7 +97,7 @@ Putty config:
 
 Now in order to connect to your box, you have to use the following command to create a tunnel from your local machine to your Container:
 ```sh
-ssh -p port cabox@hostXX.codeanyhost.com -i id_rsa.pub
+ssh -p port cabox@hostXX.codeanyhost.com -i id_rsa
 ```
 
 ### How to connect local MySQL to a Container?
