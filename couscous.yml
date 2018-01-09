@@ -143,8 +143,14 @@ menu:
             text: Mini Map
             relativeUrl: features/minimap.html
         search:
-            text: Searching and Replacing in Files
+            text: Searching and Replacing in Editor
             relativeUrl: features/search.html
+        findinfiles:
+            text: Find in Files
+            relativeUrl: features/findinfiles.html
+        goto:
+            text: GoTo
+            relativeUrl: features/goto.html
         encoding:
             text: Character Encoding
             relativeUrl: features/encoding.html
