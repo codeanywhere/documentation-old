@@ -84,7 +84,7 @@
                                       <span class='subnav-indent'><i class='fa fa-caret-right'></i> Terminal</span>
                                   </a>
                                </li>
-                                                        <li class="active">
+                                                        <li class="">
                                   <a href="/overview/codeanywhereui/statusbar.html">
                                       <span class='subnav-indent'><i class='fa fa-caret-right'></i> Status Bar</span>
                                   </a>
@@ -254,7 +254,7 @@
                                       Searching and Replacing in Editor
                                   </a>
                                </li>
-                                                        <li class="">
+                                                        <li class="active">
                                   <a href="/features/findinfiles.html">
                                       Find in Files
                                   </a>
@@ -373,21 +373,28 @@
                         </div>
           <div>
             <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
-              <h2 id="status-bar">Status Bar</h2>
-<p>The status bar is designed to provide you with information about your code and additional functionality without getting in the way of the Editor.
-You can find the status bar in the lower part of the editor: </p>
-<p><img src="images/statusbar.png" alt="statusbar" title="statusbar" /></p>
-<p>There are four pieces of information available: </p>
-<ul>
-<li>Position of the file which is currently opened </li>
-<li>your current row and column on the left side, which lets you know where exactly is your cursor currently placed in the code. If you click on current row, you'll be prompted to enter a line where you'd like to go.</li>
-<li>Tab size let's you select your indentation - you can also change this in <a href="http://docs.codeanywhere.com/preferences/general.html">General Preferences</a></li>
-<li>Top right corner detects code in the file and displays it to the user. In this way user can immediately know which programming language is being used on that file for that extension - you can also change this in <a href="http://docs.codeanywhere.com/preferences/supportedlanguagesandthemes.html">FileTypes Preferences</a>.</li>
-</ul>
+              <h1 id="find-in-files">Find in Files</h1>
+<p>Find in files is a quick way to see if a certain string or pattern appears across many files. </p>
+<p>This feature works for containers and SSH connections.</p>
+<p>To initiate Find in Files, go to the Find menu, then Find in Files or use the keyboard shortcut (Cmd/Ctrl + Shift + F).</p>
+<p><img src="images/fif.png" alt="fif" title="findinfiles" /></p>
+<p>Find in Files can also be initiated using File Explorer by opening context menu for a directory:</p>
+<p><img src="images/fifcontext.png" alt="fifcontext" title="findinfiles context menu" /></p>
+<p>When this is done, a find bar will show up:</p>
+<p><img src="images/fifbar.png" alt="fifbar" title="findinfiles bar" /></p>
+<h2 id="find">Find</h2>
+<p>To start a search, type the search term or string into the &quot;Find&quot; text box and click Find or press Enter. A window will open below the find panel that will show all occurrences of the search terms. To go to the file where the search term occurs, simply click the search result text.</p>
+<h2 id="path">Path</h2>
+<p>If you want to narrow down your search, you can specify a path to a directory you are interested in.</p>
+<h2 id="exclude">Exclude</h2>
+<p>Exclude field can be used for skiping any file with a name suffix that matches the pattern <a href="https://en.wikipedia.org/wiki/Glob_(programming)"><em>glob</em></a>, using wildcard matching.</p>
+<h2 id="search-modifiers">Search Modifiers</h2>
+<p>Regular Expressions - Turning this on allows for use of regular expressions which are complex but can help match very specific patterns of strings</p>
+<p>Match Case - If the search will be case sensitive or not</p>
             </section>
           </br>
             <footer>
-                         <a href="https://github.com/codeanywhere/documentation/blob/master/overview/codeanywhereui/statusbar.md">
+                         <a href="https://github.com/codeanywhere/documentation/blob/master/features/findinfiles.md">
                 Improve this Documentation
              </a>
                
