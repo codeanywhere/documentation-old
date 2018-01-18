@@ -183,7 +183,7 @@ And now you can change it inside Preferences -> User/Project -> General, by addi
 And by doing this, you'll override settings from Default. We'll keep updating this so stick around!
 
 
-### How can I connect to Bitbucket via authorized_keys
+### How can I connect to Bitbucket via authorized_keys?
 
 The recommended method is adding Codeanywhere SSH key to your Bitbucket account. That way, you can push commits to your private repo without password prompt. To do so, copy your Codeanywhere public key (you can find it by clicking your email in editor, then click "get your public key") and paste it to your bitbucket account (Account -> manage account -> SSH keys -> add Key)
 
