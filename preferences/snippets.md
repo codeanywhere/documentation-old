@@ -6,11 +6,29 @@ current_menu: snippets
 
 Snippets are smart templates that will insert text for you and adapt it to their context. They allow you to generate commonly used code syntax from a shortcut as soon as possible. This way, you can quickly re-use any code! 
 
+### Using snippets
+Snippets are essentially an "autocomplete feature" and are used in similar fashion.
+For example, in JavaScript mode there is a snippet which helps scaffolding a "for loop" and it is defined using a "for" prefix.
+
+This means, any time you start writing the word "for" you will get a "snippet autocomplete suggestion":
+![snippet-for-suggestion](images/snippet-for-suggestion.png "snippet for suggestion")
+
+if you hit "enter" on that suggestion, a "for loop" will appear:
+![snippet-for](images/snippet-for-loop.png "snippet for loop")
+
+as you can see, besides entering a part of code, a snippet had also defined multiple cursors for you, so in this case "index" can easily be changed to "i":
+
+![snippet-for-i](images/snippet-for-loop-i.png "snippet for loop")
+
+when you are done changing "index" keyword, just hit "tab" key, and this will select next part of the code that you probably need to change, like in this case "array" variable:
+
+![snippet-for-array](images/snippet-for-loop-array.png "snippet for loop")
+
 ### Creating Snippets
 
 Using GUI Preferences, you can remove existing snippets or add a new one using option menu and when you are done, just choose "Save" option.
 
-![goto](images/snippets.png "snippets")
+![snippets](images/snippets.png "snippets")
 
 You can define your snippets for specific languages in User or Project Preferences in a JSON format as well. 
 
