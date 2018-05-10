@@ -172,6 +172,9 @@ menu:
         vimmode:
             text: Vim Mode
             relativeUrl: features/vimmode.html
+        distractionfreemode:
+            text: Distraction Free Mode
+            relativeUrl: features/distractionfreemode.html
     advancedtopics:
       name: Advanced Topics
       items:
