@@ -152,7 +152,7 @@ All Default General Preferences:
     "tab_size": 2,
 
     // the maximum number of undo levels that the editor stores
-    "undo_dept": 1000,
+    "undo_depth": 1000,
 
     // whether to scroll or wrap long lines
     "wrap_lines": false
