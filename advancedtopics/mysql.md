@@ -8,7 +8,7 @@ Our [Containers](http://docs.codeanywhere.com/connections/container.html) create
 
 Login to your database:
 ```sh
-$ mysql -u root
+mysql -u root
 ```
 
 Execute the following commands in MySQL console:
@@ -18,6 +18,6 @@ exit
 ```
 Now, you just login to your database with the new password in [terminal](http://docs.codeanywhere.com/overview/codeanywhereui/terminal.html) or [phpmyadmin](http://docs.codeanywhere.com/connections/phpmyadmin.html):
 ```sh
-$ mysql -u root -p
+mysql -u root -p
 ```
 You will be prompted for the password after hitting Enter.

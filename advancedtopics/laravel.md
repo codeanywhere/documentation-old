@@ -7,13 +7,13 @@ current_menu: laravel
 [Containers](http://docs.codeanywhere.com/connections/container.html) created from our PHP stack come with all the requirements for the Laravel framework preinstalled and properly configured. Laravel utilizes Composer to manage its dependencies so it is a matter of running few commands to get a working Laravel installation.
 First, download the Laravel installer using Composer in your [terminal](http://docs.codeanywhere.com/overview/codeanywhereui/terminal.html):
  ```sh
-$ composer global require "laravel/installer"
+composer global require "laravel/installer"
 ```
 
 Once installed, the `laravel new` command will create a fresh Laravel installation in the `workspace` directory.
 ```sh
-$ cd ~/workspace
-$ laravel new
+cd ~/workspace
+laravel new
 ```
 
 ## Public Directory
