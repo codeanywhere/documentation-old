@@ -3,7 +3,7 @@ current_menu: general
 ---
 
 # General Preferences
-General Preferences are devided in three groups: Workspace, File Explorer and Editor.
+General Preferences are divided in three groups: Workspace, File Explorer and Editor.
 
 Using GUI Preferences, you can set your general preferences and when you are done, just choose "Save" option.
 
@@ -11,7 +11,7 @@ Using GUI Preferences, you can set your general preferences and when you are don
 
 If you are defining preferences using JSON you must follow the Default General Preferences syntax which you can see at the bottom of this section.
 
-For example, if you wish to chacge a Theme, you'll see it is set to: 
+For example, if you wish to change a Theme, you'll see it is set to: 
 ```
 "workspace": { 
 	"theme": "monokai" 

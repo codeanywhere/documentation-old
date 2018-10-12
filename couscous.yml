@@ -143,8 +143,14 @@ menu:
             text: Mini Map
             relativeUrl: features/minimap.html
         search:
-            text: Searching and Replacing in Files
+            text: Searching and Replacing in Editor
             relativeUrl: features/search.html
+        findinfiles:
+            text: Find in Files
+            relativeUrl: features/findinfiles.html
+        goto:
+            text: GoTo
+            relativeUrl: features/goto.html
         encoding:
             text: Character Encoding
             relativeUrl: features/encoding.html
@@ -166,21 +172,39 @@ menu:
         vimmode:
             text: Vim Mode
             relativeUrl: features/vimmode.html
+        distractionfreemode:
+            text: Distraction Free Mode
+            relativeUrl: features/distractionfreemode.html
     advancedtopics:
       name: Advanced Topics
       items:
-        subversion:
-            text: Subversion
-            relativeUrl: advancedtopics/svn.html
+        mysql:
+            text: Changing MySQL password
+            relativeUrl: advancedtopics/mysql.html
         sass:
             text: Installing SASS
             relativeUrl: advancedtopics/sass.html
+        laravel:
+            text: Installing Laravel framework
+            relativeUrl: advancedtopics/laravel.html
+        angular:
+            text: Installing Angular framework
+            relativeUrl: advancedtopics/angular.html
+        django:
+            text: Installing Django framework
+            relativeUrl: advancedtopics/django.html
+        meteor:
+            text: Installing Meteor framework
+            relativeUrl: advancedtopics/meteor.html
         gitcommands:
             text: Working with repositories
             relativeUrl: advancedtopics/gitcommands.html
         htaccess:
             text: Changing document root in container
             relativeUrl: advancedtopics/htaccess.html
+        subversion:
+            text: Subversion
+            relativeUrl: advancedtopics/svn.html
     management:
       name: Account Management
       items:
