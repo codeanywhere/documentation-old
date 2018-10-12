@@ -193,6 +193,9 @@ menu:
         django:
             text: Installing Django framework
             relativeUrl: advancedtopics/django.html
+        meteor:
+            text: Installing Meteor framework
+            relativeUrl: advancedtopics/meteor.html
         gitcommands:
             text: Working with repositories
             relativeUrl: advancedtopics/gitcommands.html
