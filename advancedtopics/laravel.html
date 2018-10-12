@@ -335,6 +335,11 @@
                                   </a>
                                </li>
                                                         <li class="">
+                                  <a href="http://docs.codeanywhere.com/advancedtopics/meteor.html">
+                                      Installing Meteor framework
+                                  </a>
+                               </li>
+                                                        <li class="">
                                   <a href="http://docs.codeanywhere.com/advancedtopics/gitcommands.html">
                                       Working with repositories
                                   </a>
@@ -401,10 +406,10 @@
               <h1 id="installing-laravel-framework">Installing Laravel framework</h1>
 <p><a href="http://docs.codeanywhere.com/connections/container.html">Containers</a> created from our PHP stack come with all the requirements for the Laravel framework preinstalled and properly configured. Laravel utilizes Composer to manage its dependencies so it is a matter of running few commands to get a working Laravel installation.
 First, download the Laravel installer using Composer in your <a href="http://docs.codeanywhere.com/overview/codeanywhereui/terminal.html">terminal</a>:</p>
-<pre><code class="language-sh">$ composer global require "laravel/installer"</code></pre>
+<pre><code class="language-sh">composer global require "laravel/installer"</code></pre>
 <p>Once installed, the <code>laravel new</code> command will create a fresh Laravel installation in the <code>workspace</code> directory.</p>
-<pre><code class="language-sh">$ cd ~/workspace
-$ laravel new</code></pre>
+<pre><code class="language-sh">cd ~/workspace
+laravel new</code></pre>
 <h2 id="public-directory">Public Directory</h2>
 <p><code>workspace</code> folder is your Document Root and Laravel's <code>public</code> directory serves as the front controller for all HTTP requests entering your application. If you would like to remove <code>/public</code> from your preview URL, just create a file named <code>.htaccess</code> in your <code>workspace</code> and save the following in it:</p>
 <pre><code class="language-sh">&lt;IfModule mod_rewrite.c&gt;

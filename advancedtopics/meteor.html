@@ -329,12 +329,12 @@
                                       Installing Angular framework
                                   </a>
                                </li>
-                                                        <li class="active">
+                                                        <li class="">
                                   <a href="http://docs.codeanywhere.com/advancedtopics/django.html">
                                       Installing Django framework
                                   </a>
                                </li>
-                                                        <li class="">
+                                                        <li class="active">
                                   <a href="http://docs.codeanywhere.com/advancedtopics/meteor.html">
                                       Installing Meteor framework
                                   </a>
@@ -403,20 +403,20 @@
                         </div>
           <div>
             <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
-              <h1 id="installing-django-framework">Installing Django framework</h1>
-<p>In order to install Django framework, first create a <a href="http://docs.codeanywhere.com/connections/container.html">Container</a> with the Python stack. Python has it's own package manager <code>pip</code> with whom you will install the Django framework.</p>
-<pre><code class="language-sh">pip install Django</code></pre>
-<p>Now that you have Django installed, create a new project in your <code>workspace</code>:</p>
+              <h1 id="installing-meteor-framework">Installing Meteor framework</h1>
+<p><em>NOTE: Meteor is resource intensive. Minimal system requirement for a succesfull application initialization is 512MB of RAM and 3GB of disk space.</em></p>
+<p>To install Meteor framework on a Codeanywhere <a href="http://docs.codeanywhere.com/connections/container.html">container</a>, just run the following command in your <a href="http://docs.codeanywhere.com/overview/codeanywhereui/terminal.html">terminal</a> to install the latest official Meteor release:</p>
+<pre><code class="language-sh">curl https://install.meteor.com/ | sh</code></pre>
+<p>Once installed, the <code>meteor create</code> command will create a fresh Laravel installation in the <code>workspace</code> directory.</p>
 <pre><code class="language-sh">cd ~/workspace
-django-admin startproject app</code></pre>
-<p>After the project is created, go to the project directory and launch the server:</p>
-<pre><code class="language-sh">cd ~/workspace/app
-python manage.py runserver 0.0.0.0:3000</code></pre>
-<p>Once launched, you can preview your application with your container preview URL.</p>
+meteor create .</code></pre>
+<p>Now you can run your Meteor app by running:</p>
+<pre><code class="language-sh">meteor run</code></pre>
+<p>and previewing it on your preview URL after the app is lifted.</p>
             </section>
           </br>
             <footer>
-                         <a href="https://github.com/codeanywhere/documentation/blob/master/advancedtopics/django.md">
+                         <a href="https://github.com/codeanywhere/documentation/blob/master/advancedtopics/meteor.md">
                 Improve this Documentation
              </a>
                

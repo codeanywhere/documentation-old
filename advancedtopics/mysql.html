@@ -335,6 +335,11 @@
                                   </a>
                                </li>
                                                         <li class="">
+                                  <a href="http://docs.codeanywhere.com/advancedtopics/meteor.html">
+                                      Installing Meteor framework
+                                  </a>
+                               </li>
+                                                        <li class="">
                                   <a href="http://docs.codeanywhere.com/advancedtopics/gitcommands.html">
                                       Working with repositories
                                   </a>
@@ -401,12 +406,12 @@
               <h1 id="changing-mysql-password">Changing MySQL password</h1>
 <p>Our <a href="http://docs.codeanywhere.com/connections/container.html">Containers</a> created from stacks that include a MySQL database are preconfigured with a passwordless root account for ease of use. This is OK for the initial setup and development without any sensitive data. We strongly advise that you change your password and you can do it easily with the following commans in your <a href="http://docs.codeanywhere.com/overview/codeanywhereui/terminal.html">terminal</a>:</p>
 <p>Login to your database:</p>
-<pre><code class="language-sh">$ mysql -u root</code></pre>
+<pre><code class="language-sh">mysql -u root</code></pre>
 <p>Execute the following commands in MySQL console:</p>
 <pre><code class="language-sh">SET PASSWORD FOR 'root'@'localhost' = PASSWORD('YourNewPassword');
 exit</code></pre>
 <p>Now, you just login to your database with the new password in <a href="http://docs.codeanywhere.com/overview/codeanywhereui/terminal.html">terminal</a> or <a href="http://docs.codeanywhere.com/connections/phpmyadmin.html">phpmyadmin</a>:</p>
-<pre><code class="language-sh">$ mysql -u root -p</code></pre>
+<pre><code class="language-sh">mysql -u root -p</code></pre>
 <p>You will be prompted for the password after hitting Enter.</p>
             </section>
           </br>
