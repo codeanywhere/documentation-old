@@ -4,39 +4,26 @@ current_menu: container
 
 # Container
 
-Containers are in essence your own Virtual Private Servers run invisibly in the background of Codeanywhere, each one with its own amount of RAM, Disk space and Processing power. Containers give you the ability to provision any Development Environment you like. You can even choose between one of the predefined stacks:
+Containers are like your own Virtual Private Servers (in essence they are OpenVZ OS containers) provisioned by Codeanywhere, each one with its own amount of RAM, Disk space and Processing power (just like any normal VPS but with some limitations such as lack of a dedicated IP address). Containers give you the ability to provision any Development Environment you like. You can choose between one of the predefined stacks:
 
-- Blank – Blank Development Box
-- PHP – PHP Development Stack with Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
-- PHP7 – PHP Development Stack with Apache, PHP7, MySQL and phpMyAdmin preinstalled (only CentOS).
-- NodeJS – NodeJS Development Stack with NodeJS, MySQL, NPM, bower and grunt preinstalled
+- Default – Blank Development Container
+- PHP – LAMP Development Stack with phpMyAdmin and Composer preinstalled
+- NodeJS – NodeJS Development Stack with npm and yarn preinstalled
 - Ruby – Ruby Development Stack with RVM and Ruby on Rails preinstalled
-- Python – Python Development Stack with pip and virtualenv preinstalled
+- Python – Python Development Stack with pyenv, pip and virtualenv preinstalled
 - C/C++ – C/C++ Development Stack with gcc and g++ compiler and gdb preinstalled
-- HTML – HTML5 Development Stack with Apache, npm, yeoman, bower and  grunt preinstalled
-- Wordpress – PHP Development Stack with Wordpress 4.2.1, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
-- Laravel – PHP Development Stack with Laravel 4.2, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
-- MEAN – NodeJS Development Stack with MEAN 0.9.20, NodeJS, bower, MongoDB, gulp and grunt preinstalled
-- Symfony – PHP Development Stack with Symfony 2.6, Apache, PHP, MySQL, phpMyAdmin and Composer preinstalled
-- Sails – NodeJS Development Stack with Meteor, NodeJS, NPM, bower and grunt preinstalled
-- Meteor – Meteor Development Stack with Meteor, NodeJS, NPM, bower and grunt preinstalled
-- EmberJS – EmberJS Development Stack with EmberJS, NodeJS, NPM, bower and grunt preinstalled
-- ioJS – ioJS Development Stack with ioJS, NodeJS, NPM, bower and grunt preinstalled
-- BackboneJS – BackboneJS Development Stack with BackboneJS, Apache (running on standard HTTP port – 80), NPM, bower, grunt preinstalled
-- AngularJS – AngularJS Development Stack with NodeJS, MySQL, NPM, bower and grunt preinstalled
-- CakePHP – PHP Development Stack with Apache (running on standard HTTP port – 80), CakePHP, PHP, MySQL (user: myapp, password: secret), and Composer preinstalled
-- Drupal – PHP Development Stack with Apache (running on standard HTTP port – 80), Drupal, PHP, MySQL (myapp user secret password), phpMyAdmin and Composer preinstalled
-- LoopBack – NodeJS Development Stack with LoopBack, NodeJS, MySQL, NPM, bower and grunt preinstalled
-- Swift – Swift Development Stack
+- HTML – HTML5 Development Stack with Apache, Node.js and npm preinstalled
+- Wordpress – LAMP Development Stack with Wordpress, phpMyAdmin and Composer preinstalled
 - Java – Java Development Stack with OpenJDK7, OpenJDE7 and Tomcat7 preinstalled
+- .NET Core – .NET Core Development Stack
 
 
-You won't even be aware of it being created or started. You can choose between two operating systems: Ubuntu 14.04 and CentOS 6.5.
+You won't even be aware of it being created or started. You can choose between two operating systems: Ubuntu 16.04 and CentOS 7.2.
 
 ![container-create](images/container-create.png "container-create")
 
 
-Also, if you require any development environment you can't find in our list, you can use your SSH terminal and create your own stack! Afterwards, just save it as a Custom Stack and you can use it again and again!
+Also, if you require any development environment you can't find in our list, you can create a container from a Blank stack and install anything you want and you can find some popular stacks installation steps in our Advanced Topics section. Afterwards, just save it as a Custom Stack and you can use it again and again!
 The best part of Containers is that not only does it remove issue of having your development environment wherever you are; it also enables you to connect to any GIT repository in the world, be it a corporate server or popular services like GitHub or Bitbucket. With Containers you can now finally connect to your repositories and use its full capabilities, so now you can use commit to repositories from Codeanywhere!
 
 Create a new Container by going to File -> New Connection -> Container
