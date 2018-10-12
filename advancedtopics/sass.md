@@ -16,6 +16,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 Install RVM stable with ruby:
 ```sh 
 curl -sSL https://get.rvm.io | bash -s stable --ruby
+
 ```
 Now you may load RVM with the following command:
 ```sh
@@ -27,7 +28,7 @@ Now, you just have to install the Sass gem with the following command:
 gem install sass
 ```
 
-You can use command line to run Sass, just use
+You can use the command line to run Sass:
 ```sh
 sass input.scss output.css
 ```
