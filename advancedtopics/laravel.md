@@ -16,6 +16,12 @@ cd ~/workspace
 laravel new
 ```
 
+Now you just need to configure permissions of the `storage` and the `bootstrap/cache` directories which should be writable by your web server.
+```sh
+chmod -R ug+rwx storage bootstrap/cache
+```
+
+
 ## Public Directory
 `workspace` folder is your Document Root and Laravel's `public` directory serves as the front controller for all HTTP requests entering your application. If you would like to remove `/public` from your preview URL, just create a file named `.htaccess` in your `workspace` and save the following in it:
 ```sh
