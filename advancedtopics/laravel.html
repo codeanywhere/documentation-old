@@ -410,6 +410,8 @@ First, download the Laravel installer using Composer in your <a href="http://doc
 <p>Once installed, the <code>laravel new</code> command will create a fresh Laravel installation in the <code>workspace</code> directory.</p>
 <pre><code class="language-sh">cd ~/workspace
 laravel new</code></pre>
+<p>Now you just need to configure permissions of the <code>storage</code> and the <code>bootstrap/cache</code> directories which should be writable by your web server.</p>
+<pre><code class="language-sh">chmod -R ug+rwx storage bootstrap/cache</code></pre>
 <h2 id="public-directory">Public Directory</h2>
 <p><code>workspace</code> folder is your Document Root and Laravel's <code>public</code> directory serves as the front controller for all HTTP requests entering your application. If you would like to remove <code>/public</code> from your preview URL, just create a file named <code>.htaccess</code> in your <code>workspace</code> and save the following in it:</p>
 <pre><code class="language-sh">&lt;IfModule mod_rewrite.c&gt;
