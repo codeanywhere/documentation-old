@@ -196,6 +196,9 @@ menu:
         meteor:
             text: Installing Meteor framework
             relativeUrl: advancedtopics/meteor.html
+        mean:
+            text: Installing Meteor framework
+            relativeUrl: advancedtopics/mean.html
         mongodb:
             text: Installing MongoDB
             relativeUrl: advancedtopics/mongodb.html

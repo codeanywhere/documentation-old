@@ -1,5 +1,5 @@
 ---
-current_menu: meteor
+current_menu: mongodb
 ---
 
 # Installing MongoDB
