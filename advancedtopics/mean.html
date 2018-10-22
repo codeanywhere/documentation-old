@@ -29,7 +29,7 @@
                          Getting Started
                      </p>
                      <ul class="nav nav-pills nav-stacked">
-                                                        <li class="active">
+                                                        <li class="">
                                   <a href="/index.html">
                                       Welcome
                                   </a>
@@ -339,7 +339,7 @@
                                       Installing Meteor framework
                                   </a>
                                </li>
-                                                        <li class="">
+                                                        <li class="active">
                                   <a href="/advancedtopics/mean.html">
                                       Installing Meteor framework
                                   </a>
@@ -413,26 +413,20 @@
                         </div>
           <div>
             <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
-              <h1 id="welcome">Welcome</h1>
-<p>Welcome to the official Codeanywhere documentation! Here you'll find articles and tutorials to help you get started with the Codeanywhere platform. These include everything from setting up your editor, to learning how to deploy your code!
-See something that's not documented here? Send an e-mail to <a href="mailto:support@codeanywhere.com">support@codeanywhere.com</a> and we'll get it in.</p>
-<h2 id="getting-more-help">Getting More Help</h2>
-<p>If you need any assistance, feel free to contact us and we will help you as soon as possible!
-There are several ways for you to contact us:</p>
-<ol>
-<li>send in your request to <a href="mailto:support@codeanywhere.com">support@codeanywhere.com</a></li>
-<li>inside your Editor, go to Help -&gt; Create a Support Ticket</li>
-<li>submit a feature request inside your Editor, at Help -&gt; Suggest a Feature</li>
-<li>chat - contact us directly from codeanywhere.com by sending us a message in your bottom left corner. Don't forget to type in your e-mail so you can receive our response</li>
-<li>feel free to add us on <a href="https://twitter.com/Codeanywhere">Twitter</a> or <a href="https://www.facebook.com/Codeanywhere/">Facebook</a>!</li>
-</ol>
-<h2 id="recent-updates">Recent updates</h2>
-<p>All of our updates, fixes, and improvements are shown inside your Editor in the Config Log (Help -&gt; Change Log), feel free to browse them and find out what is new in Codeanywhere!
-Also, please follow our <a href="https://codeanywhere.com">Web page</a> and <a href="https://blog.codeanywhere.com">Blog</a> for news on updates and upgrades! </p>
+              <h1 id="installing-mean-stack">Installing MEAN stack</h1>
+<p>In order to install MEAN stack, create a <a href="http://docs.codeanywhere.com/connections/container.html">Container</a> with the Node.js stack. First you will now need to install MongoDB, check the following <a href="http://docs.codeanywhere.com/advancedtopics/mongodb.html">guide</a>. </p>
+<p>Now that you have MongoDB installed, clone the MEAN repo in your <code>workspace</code>:</p>
+<pre><code class="language-sh">git clone https://github.com/linnovate/mean.git ~/workspace</code></pre>
+<p>Now you need to set an example environment file and install the dependencies</p>
+<pre><code class="language-sh">mv .env.example .env
+yarn install</code></pre>
+<p>Finally build the app and serve it on port 3000 and you should be able to preview it when it successfully runs all commands</p>
+<pre><code class="language-sh">yarn build
+SERVER_PORT=3000 yarn start</code></pre>
             </section>
           </br>
             <footer>
-                         <a href="https://github.com/codeanywhere/documentation/blob/master/welcome.md">
+                         <a href="https://github.com/codeanywhere/documentation/blob/master/advancedtopics/mean.md">
                 Improve this Documentation
              </a>
                

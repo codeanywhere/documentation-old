@@ -29,7 +29,7 @@
                          Getting Started
                      </p>
                      <ul class="nav nav-pills nav-stacked">
-                                                        <li class="active">
+                                                        <li class="">
                                   <a href="/index.html">
                                       Welcome
                                   </a>
@@ -344,7 +344,7 @@
                                       Installing Meteor framework
                                   </a>
                                </li>
-                                                        <li class="">
+                                                        <li class="active">
                                   <a href="/advancedtopics/mongodb.html">
                                       Installing MongoDB
                                   </a>
@@ -413,26 +413,38 @@
                         </div>
           <div>
             <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
-              <h1 id="welcome">Welcome</h1>
-<p>Welcome to the official Codeanywhere documentation! Here you'll find articles and tutorials to help you get started with the Codeanywhere platform. These include everything from setting up your editor, to learning how to deploy your code!
-See something that's not documented here? Send an e-mail to <a href="mailto:support@codeanywhere.com">support@codeanywhere.com</a> and we'll get it in.</p>
-<h2 id="getting-more-help">Getting More Help</h2>
-<p>If you need any assistance, feel free to contact us and we will help you as soon as possible!
-There are several ways for you to contact us:</p>
-<ol>
-<li>send in your request to <a href="mailto:support@codeanywhere.com">support@codeanywhere.com</a></li>
-<li>inside your Editor, go to Help -&gt; Create a Support Ticket</li>
-<li>submit a feature request inside your Editor, at Help -&gt; Suggest a Feature</li>
-<li>chat - contact us directly from codeanywhere.com by sending us a message in your bottom left corner. Don't forget to type in your e-mail so you can receive our response</li>
-<li>feel free to add us on <a href="https://twitter.com/Codeanywhere">Twitter</a> or <a href="https://www.facebook.com/Codeanywhere/">Facebook</a>!</li>
-</ol>
-<h2 id="recent-updates">Recent updates</h2>
-<p>All of our updates, fixes, and improvements are shown inside your Editor in the Config Log (Help -&gt; Change Log), feel free to browse them and find out what is new in Codeanywhere!
-Also, please follow our <a href="https://codeanywhere.com">Web page</a> and <a href="https://blog.codeanywhere.com">Blog</a> for news on updates and upgrades! </p>
+              <h1 id="installing-mongodb">Installing MongoDB</h1>
+<h2 id="ubuntu-1604">Ubuntu 16.04</h2>
+<p>To install mongoDB on a Codeanywhere <a href="http://docs.codeanywhere.com/connections/container.html">container</a> based on Ubuntu 16.04 distribution, just run the followings commands in your <a href="http://docs.codeanywhere.com/overview/codeanywhereui/terminal.html">terminal</a> to install the latest official MongoDB release:</p>
+<p>Import the public key used by the package management system.</p>
+<pre><code class="language-sh">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4</code></pre>
+<p>Create a <code>/etc/apt/sources.list.d/mongodb-enterprise.list</code> file for MongoDB.</p>
+<pre><code class="language-sh">echo "deb [ arch=amd64,arm64,ppc64el,s390x ] http://repo.mongodb.com/apt/ubuntu xenial/mongodb-enterprise/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-enterprise.list</code></pre>
+<p>Reload local package database and install the MongoDB Enterprise packages.</p>
+<pre><code class="language-sh">sudo apt-get update
+sudo apt-get install -y mongodb-enterprise</code></pre>
+<p>Start MongoDB</p>
+<pre><code class="language-sh">sudo systemctl mongod start</code></pre>
+<h2 id="centos-72">CentOS 7.2</h2>
+<p>To install mongoDB on a Codeanywhere <a href="http://docs.codeanywhere.com/connections/container.html">container</a> based on CentOS 7.2 distribution, just run the followings commands in your <a href="http://docs.codeanywhere.com/overview/codeanywhereui/terminal.html">terminal</a> to install the latest official MongoDB release:</p>
+<p>Configure repository with the <code>vim</code> editor:</p>
+<pre><code class="language-sh">sudo vim /etc/yum.repos.d/mongodb-enterprise.repo</code></pre>
+<p>Put the following contents in the file:</p>
+<pre><code class="language-sh">[mongodb-enterprise]
+name=MongoDB Enterprise Repository
+baseurl=https://repo.mongodb.com/yum/redhat/$releasever/mongodb-enterprise/4.0/$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc</code></pre>
+<p>Install the MongoDB Enterprise packages</p>
+<pre><code class="language-sh">sudo yum install -y mongodb-enterprise</code></pre>
+<p>Start and enable MongoDB on startup</p>
+<pre><code class="language-sh">sudo systemctl start mongod
+sudo systemctl enable mongod</code></pre>
             </section>
           </br>
             <footer>
-                         <a href="https://github.com/codeanywhere/documentation/blob/master/welcome.md">
+                         <a href="https://github.com/codeanywhere/documentation/blob/master/advancedtopics/mongodb.md">
                 Improve this Documentation
              </a>
                
