@@ -220,3 +220,6 @@ git commit -am "message" // To commit changes
 
 git push origin master // Push your local changes to repository
 
+For server error and connection here is the solution, If you are using wireless internet with the help of Router than you can fir your Server and IP address issue and other connections issue by following the [Linksys Support](https://www.routertechnicalsupportnumbers.com/linksys-router-support/) here you get all the solutions and answers related to your Router.
+
+
